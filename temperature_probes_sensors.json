@@ -1,0 +1,640 @@
+{
+  "catalog_rows": [
+    {
+      "model": "5615-6",
+      "family": "Secondary Reference PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 300 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+      "dimensions": "152 mm length x 4.76 mm diameter",
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+    },
+    {
+      "model": "5615-9",
+      "family": "Secondary Reference PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 420 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+      "dimensions": "229 mm length x 4.76 mm diameter",
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+    },
+    {
+      "model": "5615-12",
+      "family": "Secondary Reference PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 420 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+      "dimensions": "305 mm length x 6.35 mm diameter",
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+    },
+    {
+      "model": "5622-05",
+      "family": "Fast Response PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 350 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+      "dimensions": "0.5 mm diameter tip",
+      "pdf_ref": null
+    },
+    {
+      "model": "5622-10",
+      "family": "Fast Response PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 350 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+      "dimensions": "1.0 mm diameter tip",
+      "pdf_ref": null
+    },
+    {
+      "model": "5622-16",
+      "family": "Fast Response PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 350 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+      "dimensions": "1.6 mm diameter tip",
+      "pdf_ref": null
+    },
+    {
+      "model": "5622-32",
+      "family": "Fast Response PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 350 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+      "dimensions": "3.2 mm diameter tip",
+      "pdf_ref": null
+    },
+    {
+      "model": "5624-20",
+      "family": "High-Temperature PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5624",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 1000 \u00b0C",
+      "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C (typical)",
+      "dimensions": "508 mm length x 6.35 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5640",
+      "family": "Thermistor Standard Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+      "dimensions": null,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+    },
+    {
+      "model": "5641",
+      "family": "Thermistor Standard Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+      "dimensions": null,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+    },
+    {
+      "model": "5642",
+      "family": "Thermistor Standard Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+      "dimensions": null,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+    },
+    {
+      "model": "5643",
+      "family": "Thermistor Standard Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+      "dimensions": null,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+    },
+    {
+      "model": "5644",
+      "family": "Thermistor Standard Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+      "dimensions": null,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+    },
+    {
+      "model": "5609-9BND-P",
+      "family": "Secondary PRT (90\u00b0 bend)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5609-9bnd-p",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 670 \u00b0C",
+      "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C (typical)",
+      "dimensions": "1/4 in diameter x 12 in length, 90\u00b0 bend",
+      "pdf_ref": null
+    },
+    {
+      "model": "5610-6",
+      "family": "Precision Thermistor Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+      "dimensions": "152.4 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5610-9",
+      "family": "Precision Thermistor Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+      "dimensions": "228.6 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5611A-11",
+      "family": "Precision Thermistor Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+      "dimensions": "25.4 mm length silicone-bead probe",
+      "pdf_ref": null
+    },
+    {
+      "model": "5611T",
+      "family": "Precision Thermistor Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+      "dimensions": "28 mm PTFE-coated probe (20 ft lead)",
+      "pdf_ref": null
+    },
+    {
+      "model": "5665",
+      "family": "Precision Thermistor Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 100 \u00b0C",
+      "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+      "dimensions": "76.3 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5618B-6",
+      "family": "Small Diameter PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 300 \u00b0C",
+      "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+      "dimensions": "152 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5618B-9",
+      "family": "Small Diameter PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 300 \u00b0C",
+      "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+      "dimensions": "229 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5618B-12",
+      "family": "Small Diameter PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 420 \u00b0C",
+      "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+      "dimensions": "305 mm length x 3.2 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5623B-6",
+      "family": "Precision Freezer RTD Probe",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5623b",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-100 to 156 \u00b0C",
+      "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C",
+      "dimensions": "152 mm length x 6.35 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5626-20",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5628-20",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5626-12",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5626-15",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5628-12",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5628-15",
+      "family": "Secondary Standard PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 661 \u00b0C",
+      "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+      "dimensions": null,
+      "pdf_ref": null
+    },
+    {
+      "model": "5627A-6",
+      "family": "Industrial PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 300 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+      "dimensions": "152 mm length x 4.7 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5627A-9",
+      "family": "Industrial PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 300 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+      "dimensions": "229 mm length x 4.7 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5627A-12",
+      "family": "Industrial PRT",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "-200 to 420 \u00b0C",
+      "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+      "dimensions": "305 mm length x 6.35 mm diameter",
+      "pdf_ref": null
+    },
+    {
+      "model": "5649-20",
+      "family": "Type R Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "508 mm length",
+      "pdf_ref": null
+    },
+    {
+      "model": "5649-20C",
+      "family": "Type R Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "508 mm length, with reference junction",
+      "pdf_ref": null
+    },
+    {
+      "model": "5649-25",
+      "family": "Type R Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "635 mm length",
+      "pdf_ref": null
+    },
+    {
+      "model": "5649-25C",
+      "family": "Type R Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "635 mm length, with reference junction",
+      "pdf_ref": null
+    },
+    {
+      "model": "5650-20",
+      "family": "Type S Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "508 mm length",
+      "pdf_ref": null
+    },
+    {
+      "model": "5650-20C",
+      "family": "Type S Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "508 mm length, with reference junction",
+      "pdf_ref": null
+    },
+    {
+      "model": "5650-25",
+      "family": "Type S Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "635 mm length",
+      "pdf_ref": null
+    },
+    {
+      "model": "5650-25C",
+      "family": "Type S Thermocouple Standard",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "Temperature_sensor"
+      ],
+      "range": "0 to 1450 \u00b0C",
+      "uncertainty": "\u00b10.5 \u00b0C (typical)",
+      "dimensions": "635 mm length, with reference junction",
+      "pdf_ref": null
+    },
+    {
+      "model": "80PK-1",
+      "accessory_for": "General purpose temperature measurement (Type-K)",
+      "function": "Bead thermocouple probe, -40 to 260 \u00b0C range",
+      "pdf_ref": null
+    },
+    {
+      "model": "8588A-LEAD KIT-OSP",
+      "accessory_for": "Fluke 8588A Reference Multimeter",
+      "function": "General purpose test probe set with pouch",
+      "pdf_ref": null
+    },
+    {
+      "model": "Fluke 884X-RTD",
+      "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+      "function": "100 \u03a9 RTD temperature probe",
+      "pdf_ref": null
+    },
+    {
+      "model": "Fluke 8845A-EFPT",
+      "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+      "function": "Extended fine point tip adapters (red and black)",
+      "pdf_ref": null
+    },
+    {
+      "model": "Fluke 8845A-TPIT",
+      "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+      "function": "IC test probe tip set (red and black)",
+      "pdf_ref": null
+    },
+    {
+      "model": "5026A-H",
+      "accessory_for": "Fluke 5020A-H Thermo-Hygrometer",
+      "function": "Spare high-accuracy temperature/humidity probe",
+      "pdf_ref": null
+    },
+    {
+      "model": "5026A-S",
+      "accessory_for": "Fluke 5020A-S Thermo-Hygrometer",
+      "function": "Spare standard temperature/humidity probe",
+      "pdf_ref": null
+    },
+    {
+      "model": "5027A-H",
+      "accessory_for": "Fluke 5020A-H Thermo-Hygrometer",
+      "function": "Spare probe kit (high-accuracy)",
+      "pdf_ref": null
+    },
+    {
+      "model": "5027A-S",
+      "accessory_for": "Fluke 5020A-S Thermo-Hygrometer",
+      "function": "Spare probe kit (standard)",
+      "pdf_ref": null
+    }
+  ],
+  "docs_rows": [
+    {
+      "model": "5615",
+      "doc_type": "User Manual",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5615____ugeng0000.pdf"
+    },
+    {
+      "model": "5615",
+      "doc_type": "Data Sheet",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+    },
+    {
+      "model": "5626/5628",
+      "doc_type": "User Manual",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5626-28_ugeng0000_0.pdf"
+    },
+    {
+      "model": "5618B",
+      "doc_type": "User Manual",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5618B____ugeng0100.pdf"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "catalog_rows": [
+    {
+      "model": "7526A",
+      "family": "Precision Process Calibrator",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/electrical-calibration/electrical-calibrators/7526a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [
+        "DC Voltage",
+        "DC Current",
+        "Resistance",
+        "Thermocouple",
+        "RTD",
+        "Pressure (with modules)"
+      ],
+      "range": {
+        "DC Voltage Output": {
+          "range": "-10 mV to 100 V",
+          "uncertainty": "±30 ppm of output + 3 µV (1-year)"
+        },
+        "DC Voltage Input": {
+          "range": "0 to 100 V",
+          "uncertainty": "±100 ppm of reading + 0.2 mV (0-10 V); ±100 ppm + 2 mV (10-100 V) (1-year)"
+        },
+        "DC Current Output": {
+          "range": "0 to 100 mA",
+          "uncertainty": "±50 ppm of reading + 1 µA (1-year)"
+        },
+        "DC Current Input": {
+          "range": "0 to 50 mA (isolated); 0 to 24 mA (loop)",
+          "uncertainty": "±100 ppm of reading + 1 µA (1-year)"
+        },
+        "Resistance Output": {
+          "range": "5 Ω to 4 kΩ",
+          "uncertainty": "±0.015 Ω (≤400 Ω); ±0.3 Ω (≤4 kΩ) (23 ±5 °C, 1-year)"
+        },
+        "Resistance Input": {
+          "range": "0 to 4 kΩ",
+          "uncertainty": "±20 ppm of reading + 0.004 Ω (≤400 Ω); +0.04 Ω (≤4 kΩ) (1-year)"
+        },
+        "Thermocouple Output": {
+          "range": "-250 to 1372 °C (TC types J, K, T, etc.)",
+          "uncertainty": "±0.1 °C (Type K, -100 to 800 °C, 1-year)"
+        },
+        "Thermocouple Input": {
+          "range": "-250 to 1372 °C (TC types J, K, T, etc.)",
+          "uncertainty": "±0.1 °C (Type K, -100 to 800 °C, 1-year)"
+        },
+        "RTD Output": {
+          "range": "-200 to 800 °C (Pt100)",
+          "uncertainty": "±0.05 °C (-200 to 630 °C, Pt100, 1-year)"
+        },
+        "RTD Input": {
+          "range": "-80 to 800 °C (Pt100)",
+          "uncertainty": "±0.02 °C (-80 to 100 °C, Pt100, 1-year)"
+        },
+        "Pressure (with modules)": {
+          "range": "1 inH₂O to 10,000 psi",
+          "uncertainty": "±0.008% of reading (with Fluke 525A-P modules)"
+        }
+      },
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/4253244C_EN-w_0.pdf"
+    },
+    {
+      "model": "7526A-CASE",
+      "family": "Carrying Case for 7526A",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/cases/7526a-case",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [],
+      "range": {},
+      "pdf_ref": ""
+    },
+    {
+      "model": "Y7526A",
+      "family": "Rack Mount Kit",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/rack-mounts-and-hardware/y7526a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [],
+      "range": {},
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/y7526a__iseng0000.pdf"
+    }
+  ],
+  "docs_rows": [
+    {
+      "model": "7526A",
+      "doc_type": "Datasheet",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/4253244C_EN-w_0.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "User Manual",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526a___umeng0000.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "User Manual Supplement",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___umeng0006.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Calibration Manual",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526a___1cmeng0000_0.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Calibration Manual Supplement",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___cmeng0003.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Memory Volatility Statement",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___mveng0000.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Getting Started Guide",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___gseng0000.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Getting Started Supplement",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___gseng0005.pdf"
+    },
+    {
+      "model": "7526A",
+      "doc_type": "Brochure",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/4226314d-en-7526A-brochure-w_0.pdf"
+    },
+    {
+      "model": "Y7526A",
+      "doc_type": "Instruction Sheet",
+      "pdf_url": "https://dam-assets.fluke.com/s3fs-public/y7526a__iseng0000.pdf"
+    }
+  ]
+}
