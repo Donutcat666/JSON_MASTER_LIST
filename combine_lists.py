@@ -26,7 +26,10 @@ def main():
     combined['temperature_probes_sensors'] = load_json_strip_comments('temperature_probes_sensors.json')
     # piston gauge pressure calibration
     combined['piston_gauge_pressure_calibration'] = load_json_strip_comments('piston_gauge_pressure_calibration.json')
-    Path('combined.json').write_text(json.dumps(combined, indent=2))
+    # write minified JSON so it's easy to import elsewhere
+    Path('combined.json').write_text(
+        json.dumps(combined, ensure_ascii=False, separators=(",", ":"))
+    )
 
 if __name__ == '__main__':
     main()
