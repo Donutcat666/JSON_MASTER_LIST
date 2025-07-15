@@ -584,6 +584,123 @@
       "recommended_interval_mo": 12,
       "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/flk-240099-en-DS703-FC-diagnostic-borescope-ds-w.pdf?VersionId=dWziRVCblzNL7c7meOl4K.ZYldbgEmnG",
       "last_verified": "2025-07-14"
+    },
+    {
+      "model": "LIQ-100-IE",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/industrial-ethernet-testers/linkiq-100-ie",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/LinkIQ Datasheet 7003739 EN .pdf?VersionId=WXw.qL8iuY25M4wF68S0manv9m5_7nHv",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "LIQ-DUO",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/linkiq-duo",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/LinkIQ Datasheet 7003739 EN .pdf?VersionId=WXw.qL8iuY25M4wF68S0manv9m5_7nHv",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "LIQ-100",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/linkiq-100",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/LinkIQ Datasheet 7003739 EN .pdf?VersionId=WXw.qL8iuY25M4wF68S0manv9m5_7nHv",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS-POE",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/ms-poe",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/microscanner-poe-datasheet.pdf?VersionId=ZZs9HEBDxC5N0oGBFJHVDNqGeIBMq1zK",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS2-100-IE",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/industrial-ethernet-testers/ms2-ie",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/microscanner-poe-datasheet.pdf?VersionId=ZZs9HEBDxC5N0oGBFJHVDNqGeIBMq1zK",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS-POE-IE",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/industrial-ethernet-testers/ms-poe-ie",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/microscanner-poe-datasheet.pdf?VersionId=ZZs9HEBDxC5N0oGBFJHVDNqGeIBMq1zK",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "DSX2-5-IE-K1",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/dsx2-5-ie-k1",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS2-100",
+      "family": "Industrial Ethernet Tester",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/ms2-100",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/microscanner-poe-datasheet.pdf?VersionId=ZZs9HEBDxC5N0oGBFJHVDNqGeIBMq1zK",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "REMOTEID-1",
+      "family": "Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/adapters/remoteid",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS-IE-ADAPTER SET",
+      "family": "Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/adapters/ms-ie-adapter-set",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS-POE-IE-KIT",
+      "family": "Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/industrial-ethernet-testers/ms-poe-ie-kit",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS-POE-KIT",
+      "family": "Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/ms-poe-kit",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "MS2-KIT",
+      "family": "Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/network-cable-testers/copper/ms2-kit",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
     }
   ]
 }
