@@ -1,0 +1,302 @@
+{
+  "catalog_rows": [
+    {
+      "model": "1551A Ex",
+      "family": "Intrinsically Safe Stik Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1551a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Temperature"],
+      "range": { "Temperature": "-50 \u00b0C to 160 \u00b0C" },
+      "uncertainty": { "Temperature": "\u00b10.05 \u00b0C" },
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1552A Ex",
+      "family": "Intrinsically Safe Stik Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1552a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Temperature"],
+      "range": { "Temperature": "-80 \u00b0C to 300 \u00b0C" },
+      "uncertainty": { "Temperature": "\u00b10.05 \u00b0C" },
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1620A",
+      "family": "DewK Thermo-Hygrometer",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1620a",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Temperature", "Humidity"],
+      "range": { "Temperature": "0 \u00b0C to 50 \u00b0C (operating)", "Humidity": "0 % to 100 % RH" },
+      "uncertainty": { "Temperature": "\u00b10.125 \u00b0C (typical)", "Humidity": "\u00b11.5 %RH (typical)" },
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3397500_6200_ENG_B_W.PDF",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2560",
+      "family": "Black Stack SPRT Module (2-channel, 25 \u03a9 & 100 \u03a9)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["PRTs"],
+      "range": { "PRTs": "-200 \u00b0C to 962 \u00b0C (with appropriate SPRT/PRT)" },
+      "uncertainty": { "PRTs": "\u00b10.005 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2561",
+      "family": "Black Stack High-Temp PRT Module (2-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2561",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["HTPRTs"],
+      "range": { "HTPRTs": "up to 1200 \u00b0C" },
+      "uncertainty": { "HTPRTs": "\u00b10.013 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2562",
+      "family": "Black Stack PRT Scanner Module (8-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2562",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["PRTs"],
+      "range": { "PRTs": "-200 \u00b0C to 660 \u00b0C (typical RTD range)" },
+      "uncertainty": { "PRTs": "\u00b10.01 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2563",
+      "family": "Black Stack Standards Thermistor Module (2-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2563",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Thermistors"],
+      "range": { "Thermistors": "0 \u00b0C to 100 \u00b0C" },
+      "uncertainty": { "Thermistors": "\u00b10.0013 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2564",
+      "family": "Black Stack Thermistor Scanner Module (8-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2564",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Thermistors"],
+      "range": { "Thermistors": "0 \u00b0C to 100 \u00b0C" },
+      "uncertainty": { "Thermistors": "\u00b10.0025 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2565",
+      "family": "Black Stack Precision Thermocouple Module (2-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2565",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Thermocouples"],
+      "range": { "Thermocouples": "Depending on type, up to ~1820 \u00b0C (Type B)" },
+      "uncertainty": { "Thermocouples": "\u00b10.05 \u00b0C (internal CJC at 0 \u00b0C)" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2566",
+      "family": "Black Stack Thermocouple Scanner Module (12-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2566",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Thermocouples"],
+      "range": { "Thermocouples": "Depending on type, up to ~1820 \u00b0C (Type B)" },
+      "uncertainty": { "Thermocouples": "\u00b10.1 \u00b0C (internal CJC at 0 \u00b0C)" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2567",
+      "family": "Black Stack 1000 \u03a9 PRT Module (2-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2567",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["1000 \u03a9 PRTs"],
+      "range": { "1000 \u03a9 PRTs": "-200 \u00b0C to 660 \u00b0C (typical)" },
+      "uncertainty": { "1000 \u03a9 PRTs": "\u00b10.006 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2568",
+      "family": "Black Stack 1000 \u03a9 PRT Scanner Module (8-channel)",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2568",
+      "division": "Temperature Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["1000 \u03a9 PRTs"],
+      "range": { "1000 \u03a9 PRTs": "-200 \u00b0C to 660 \u00b0C (typical)" },
+      "uncertainty": { "1000 \u03a9 PRTs": "\u00b10.01 \u00b0C at 0 \u00b0C" },
+      "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "last_verified": "2025-07-15"
+    }
+  ],
+  "docs_rows": [
+    {
+      "model": "1551A Ex",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________umeng0300.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1551A Ex",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1551A Ex",
+      "doc_type": "Calibration Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________cmeng0000.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1552A Ex",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________umeng0300.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1552A Ex",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1552A Ex",
+      "doc_type": "Calibration Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________cmeng0000.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1620A",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1620A___Rebrand_ugeng0100.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1620A",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3397500_6200_ENG_B_W.PDF",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1560",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/1560w___ugeng0000.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "1560",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2560",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2561",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2562",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2563",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2564",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2565",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2566",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2567",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2568",
+      "doc_type": "Datasheet",
+      "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+      "source_site": "aaatesters.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    }
+  ]
+}
