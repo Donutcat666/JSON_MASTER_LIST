@@ -3,33 +3,138 @@
     "products": [
       {
         "model": "5681/5683/5684 Quartz-Sheath SPRTs",
-        "temperature_range": "–200 °C to 1070 °C (model-dependent)",
-        "drift_rate": "<0.001 °C per year (typical)",
-        "nominal_RTPW": "25.5 Ω (5681, 5683); 0.25 Ω (5684)",
-        "uncertainty": "Meets ITS‑90 SPRT criteria; <0.002 °C drift per 100 h at high temp"
+        "temperature_range": "\u2013200 \u00b0C to 1070 \u00b0C (model-dependent)",
+        "drift_rate": "<0.001 \u00b0C per year (typical)",
+        "nominal_RTPW": "25.5 \u03a9 (5681, 5683); 0.25 \u03a9 (5684)",
+        "uncertainty": "Meets ITS\u201190 SPRT criteria; <0.002 \u00b0C drift per 100 h at high temp"
       },
       {
         "model": "5686-B Glass Capsule SPRT",
-        "temperature_range": "–260 °C to 232 °C",
-        "drift_rate": "<0.005 °C per year",
-        "nominal_RTPW": "25.5 Ω",
-        "uncertainty": "±0.001 °C reproducibility"
+        "temperature_range": "\u2013260 \u00b0C to 232 \u00b0C",
+        "drift_rate": "<0.005 \u00b0C per year",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "\u00b10.001 \u00b0C reproducibility"
       },
       {
         "model": "5698-25 Working Standard SPRT",
-        "temperature_range": "–200 °C to 670 °C",
-        "drift_rate": "<0.006 °C per 100 h at 660 °C (typical <0.003 °C)",
-        "nominal_RTPW": "25.5 Ω",
-        "uncertainty": "ITS‑90 compliant; ±0.0015 °C reproducibility"
+        "temperature_range": "\u2013200 \u00b0C to 670 \u00b0C",
+        "drift_rate": "<0.006 \u00b0C per 100 h at 660 \u00b0C (typical <0.003 \u00b0C)",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "ITS\u201190 compliant; \u00b10.0015 \u00b0C reproducibility"
+      },
+      {
+        "model": "5699 High-Temp Metal-Sheath SPRT",
+        "temperature_range": "\u2013200 \u00b0C to 661 \u00b0C",
+        "drift_rate": "<0.008 \u00b0C per year (\u22643 \u00b0C typical)",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "ITS\u201190 compliant; \u00b10.001 \u00b0C reproducibility"
+      },
+      {
+        "model": "5901 Triple Point of Water Cells",
+        "uncertainty": "\u00b10.0001 \u00b0C (full-size cells); \u00b10.0002 \u00b0C (mini cell)",
+        "reproducibility": "\u00b10.00002 \u00b0C (full-size); \u00b10.00005 \u00b0C (mini)",
+        "construction": "High-purity water sealed in borosilicate or fused-quartz cells; multiple sizes available",
+        "immersion_depth": "265 mm (standard cell); 118 mm (mini cell)"
+      },
+      {
+        "model": "5960A Triple Point of Argon System",
+        "triple_point_temp": "\u2013189.3442 \u00b0C (Argon TP)",
+        "uncertainty": "\u00b10.00025 \u00b0C (k=2)",
+        "plateau_duration": ">30 hours at \u00b10.0001 \u00b0C stability",
+        "capacity": "4 SPRTs (4 wells, 160 mm cell depth)",
+        "notes": "Integrated argon TP realization; LN\u2082-cooled"
+      },
+      {
+        "model": "ITS-90 Fixed-Point Cells",
+        "fixed_points": "Hg, Ga, In, Sn, Zn, Al, Ag, Cu (\u201338.8344 \u00b0C to 1084.62 \u00b0C)",
+        "uncertainty": "\u00b10.2 mK (Mercury) up to \u00b110 mK (Copper) (k=2)",
+        "purity": "Metal samples \u226599.9999% purity sealed in evacuated quartz cells",
+        "plateau_duration": "Days to weeks (varies by metal; Ga ~ weeks)"
+      },
+      {
+        "model": "Mini Fixed-Point Cells",
+        "fixed_points": "H\u2082O, In, Sn, Zn, Al, Ag, Cu (0.01 \u00b0C to 1084.62 \u00b0C)",
+        "uncertainty": "\u00b10.7 mK (In) to \u00b115 mK (Cu) for cell-only (k=2)",
+        "design": "Smaller cells for cost-effective primary standards (quartz or metal shells)",
+        "notes": "Shorter plateaus (~6\u201310 hours) with easy maintenance"
+      },
+      {
+        "model": "6331/7341/7381 Deep-Well Compact Baths",
+        "temperature_range": "35 \u00b0C to 300 \u00b0C (6331); \u201345 \u00b0C to 150 \u00b0C (7341); \u201380 \u00b0C to 110 \u00b0C (7381)",
+        "stability": "\u00b10.005 to \u00b10.015 \u00b0C",
+        "uniformity": "\u00b10.007 to \u00b10.025 \u00b0C across wells",
+        "bath_depth": "457 mm (18 in) deep immersion",
+        "notes": "High-stability stirred liquid baths for sensor calibration"
+      },
+      {
+        "model": "7008/7037/7012/7011 Refrigerated Baths",
+        "temperature_range": "\u201340 \u00b0C to 110 \u00b0C (model-dependent)",
+        "stability": "\u00b10.001 to \u00b10.003 \u00b0C",
+        "uniformity": "\u00b10.002 to \u00b10.004 \u00b0C",
+        "volume": "27\u201342 L bath volume (model-dependent)",
+        "notes": "Precision refrigerated baths for \u201340 \u00b0C to +110 \u00b0C calibration"
+      },
+      {
+        "model": "7312 TPW Maintenance Bath",
+        "temperature_range": "\u20135 \u00b0C to 110 \u00b0C",
+        "stability": "\u00b10.001 \u00b0C at 0 \u00b0C",
+        "plateau_duration": "Maintains TPW cells ~6 weeks",
+        "bath_depth": "496 mm immersion for TPW cells",
+        "notes": "Low-drift bath for long-term Triple Point of Water maintenance"
+      },
+      {
+        "model": "9114/9115A/9116A Freeze-Point Furnaces",
+        "temperature_range": "100 \u00b0C to 680 \u00b0C (9114); 550 \u00b0C to 1000 \u00b0C (9115A); 550 \u00b0C to 1100 \u00b0C (9116A)",
+        "stability": "\u00b10.03 \u00b0C (9114); \u00b10.25 \u00b0C (9115A); \u00b10.5 \u00b0C (9116A)",
+        "application": "Realizing metal freeze points (Zn, Al, Ag, Cu) with high stability",
+        "notes": "Multi-zone furnaces (9115A/9116A use heat-pipe for 550+ \u00b0C) for ITS-90 fixed-point cells"
+      },
+      {
+        "model": "9117 Annealing Furnace",
+        "temperature_range": "300 \u00b0C to 1100 \u00b0C",
+        "stability": "\u00b10.5 \u00b0C",
+        "capacity": "5 SPRTs (430 mm length wells)",
+        "purpose": "Anneals SPRTs to relieve strain and restore stability",
+        "notes": "PID programmable; prevents sensor contamination during annealing"
+      },
+      {
+        "model": "9210 Mini TPW Maintenance Apparatus",
+        "temperature_range": "\u201310 \u00b0C to 125 \u00b0C",
+        "stability": "\u00b10.02 \u00b0C",
+        "plateau_duration": "~8 hours (mini TPW)",
+        "application": "Maintains mini Triple-Point-of-Water and Gallium cells in the lab",
+        "notes": "Portable 7 kg unit; up to 3 preheat wells for probes"
+      },
+      {
+        "model": "9230 Gallium Cell Maintenance Apparatus",
+        "temperature_range": "15 \u00b0C to 35 \u00b0C",
+        "stability": "\u00b10.02 \u00b0C",
+        "plateau_duration": "\u22485 days (Gallium melt plateau)",
+        "application": "Automated maintenance of metal-cased Gallium melting-point cell (29.7646 \u00b0C)",
+        "notes": "Ensures \u00b10.05 \u00b0C accuracy at Gallium point; includes pre-cool and melt control"
+      },
+      {
+        "model": "9260 Mini Fixed-Point Cell Furnace",
+        "temperature_range": "50 \u00b0C to 680 \u00b0C",
+        "stability": "\u00b10.03 \u00b0C (\u2264300 \u00b0C); \u00b10.05 \u00b0C (>300 \u00b0C)",
+        "application": "Realizing mini In/Sn/Zn/Al freeze-point cells in a compact furnace",
+        "plateau_duration": "~6\u201310 hours (typical)",
+        "notes": "Bench-top size, 9-inch immersion; suitable for mini quartz or metal fixed-point cells"
+      },
+      {
+        "model": "7196B LN\u2082 Comparison Calibrator",
+        "temperature_range": "\u2248 \u2013196 \u00b0C (LN\u2082 boil; equivalent to Argon TP with correction)",
+        "stability": "\u22640.002 \u00b0C (2 mK) over 20 min",
+        "uniformity": "<0.0004 \u00b0C across wells",
+        "capacity": "Dewar + Cu block; available with 4 wells or 13 wells (8 mm & 6.35 mm)",
+        "uncertainty": "< \u00b10.002 \u00b0C of Argon triple point"
       }
-      /* ... truncated for brevity ... (include full JSON here in production) */
     ],
     "accessories": [
       {
         "model": "2027-5901",
         "description": "TPW Holding Fixture for TPW cell (fits Fluke 7012/7037 baths)"
       }
-      /* ... other accessories ... */
     ]
   }
 }
