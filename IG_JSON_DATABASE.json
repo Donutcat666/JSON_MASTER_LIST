@@ -341,6 +341,204 @@
       "recommended_interval_mo": 12,
       "pdf_ref": "N/A",
       "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T6-1000 PRO",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/t6-pro",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "ST120",
+      "family": "GFCI Socket Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-st120",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T6-1000",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t6-1000",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "ST120+",
+      "family": "GFCI Socket Tester with Beeper",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-st120-plus",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T6-600",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t6-600",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T5-1000",
+      "family": "Voltage, Continuity and Current Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t5-1000",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T5-600",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t5-600",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "9040",
+      "family": "Phase Rotation Indicator",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-9040",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1AC II",
+      "family": "Non-Contact Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1ac-ii",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "2AC",
+      "family": "Non-Contact Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-2ac",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T+Pro",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t-plus-pro",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T+",
+      "family": "Electrical Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t-plus",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "LVD2",
+      "family": "Non-Contact Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-lvd2",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1LAC II A",
+      "family": "Non-Contact Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1lac-ii-a",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PRV240FS",
+      "family": "Proving Unit: Test Voltage Indicators",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-prv240fs-proving-unit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PRV240",
+      "family": "Proving Unit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/prv240-proving-unit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1AC II VoltAlert 5-pack",
+      "family": "Non-Contact Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1ac-ii-a1-5pk",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T5-H5-1AC II Kit",
+      "family": "Electrical Tester Kit with Holster and 1AC II Voltage Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t5-h5-1ac-ii-kit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T5-600/62 MAX+",
+      "family": "IR Thermometer, Electrical Tester and Voltage Detector Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t5-600-62-max-plus",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "TL80A",
+      "family": "Basic Electronic Test Lead Kit",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/test-leads/fluke-tl80a-kit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T5-1000 Tester Kit",
+      "family": "Tester Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t5-1000-kit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "T+PRO/1AC KIT",
+      "family": "Electrical Tester and AC Voltage Detector Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-t-plus-pro-1ac-kit",
+      "division": "Fluke Corporation",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
     }
   ]
 }
