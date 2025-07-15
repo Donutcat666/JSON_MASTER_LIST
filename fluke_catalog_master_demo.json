@@ -1,0 +1,40 @@
+{
+  "catalog_rows": [
+    {
+      "model": "5560A",
+      "family": "Electrical Calibrator",
+      "division": "Electrical"
+    },
+    {
+      "model": "4180/4181",
+      "family": "Precision IR Calibrators",
+      "division": "Temperature"
+    },
+    {
+      "model": "5681/5683/5684",
+      "family": "Quartz\u2011Sheath SPRTs",
+      "division": "Temperature Calibration"
+    },
+    {
+      "model": "5960A",
+      "family": "Argon TP System",
+      "division": "Temperature Calibration"
+    },
+    {
+      "model": "2027-5901",
+      "accessory_for": null,
+      "function": "TPW Holding Fixture"
+    },
+    {
+      "model": "1594-CASE",
+      "accessory_for": null,
+      "function": "Case for 1594A"
+    }
+  ],
+  "docs_rows": [
+    {
+      "model": "5560A",
+      "doc_type": "Data Sheet"
+    }
+  ]
+}

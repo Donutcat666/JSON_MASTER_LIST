@@ -1,0 +1,35 @@
+{
+  "ITS90_temperature_standards": {
+    "products": [
+      {
+        "model": "5681/5683/5684 Quartz-Sheath SPRTs",
+        "temperature_range": "–200 °C to 1070 °C (model-dependent)",
+        "drift_rate": "<0.001 °C per year (typical)",
+        "nominal_RTPW": "25.5 Ω (5681, 5683); 0.25 Ω (5684)",
+        "uncertainty": "Meets ITS‑90 SPRT criteria; <0.002 °C drift per 100 h at high temp"
+      },
+      {
+        "model": "5686-B Glass Capsule SPRT",
+        "temperature_range": "–260 °C to 232 °C",
+        "drift_rate": "<0.005 °C per year",
+        "nominal_RTPW": "25.5 Ω",
+        "uncertainty": "±0.001 °C reproducibility"
+      },
+      {
+        "model": "5698-25 Working Standard SPRT",
+        "temperature_range": "–200 °C to 670 °C",
+        "drift_rate": "<0.006 °C per 100 h at 660 °C (typical <0.003 °C)",
+        "nominal_RTPW": "25.5 Ω",
+        "uncertainty": "ITS‑90 compliant; ±0.0015 °C reproducibility"
+      }
+      /* ... truncated for brevity ... (include full JSON here in production) */
+    ],
+    "accessories": [
+      {
+        "model": "2027-5901",
+        "description": "TPW Holding Fixture for TPW cell (fits Fluke 7012/7037 baths)"
+      }
+      /* ... other accessories ... */
+    ]
+  }
+}
