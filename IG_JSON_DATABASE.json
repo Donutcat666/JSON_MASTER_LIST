@@ -539,6 +539,51 @@
       "recommended_interval_mo": 12,
       "pdf_ref": null,
       "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke ii500 Acoustic Imager",
+      "family": "Acoustic Imager",
+      "product_url": "https://www.fluke.com/en-us/product/industrial-imaging/fluke-ii500",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/2024-10/ii500_pseng.pdf?VersionId=gqxefXr3qvQgv.7JvgAVIBAalngEBYM8",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke ii905 Acoustic Imager",
+      "family": "Acoustic Imager",
+      "product_url": "https://www.fluke.com/en-us/product/industrial-imaging/fluke-ii905",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/2024-10/ii9x5_pseng.pdf?VersionId=MtlrW3_GC9kjT2FoiQvCpMAeyb8cPfJO",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke ii915 Acoustic Imager",
+      "family": "Acoustic Imager",
+      "product_url": "https://www.fluke.com/en-us/product/industrial-imaging/fluke-ii915",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/2024-10/ii9x5_pseng.pdf?VersionId=MtlrW3_GC9kjT2FoiQvCpMAeyb8cPfJO",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke SB140 Sound Beacon",
+      "family": "Imaging Accessory Kit",
+      "product_url": "https://www.fluke.com/en-us/product/industrial-imaging/fluke-sb140",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/flk-250152-en-sound-beacon-data-sheet.pdf?VersionId=CRe.w4tQ1LBFeljwXbfxZUoLXJlOIBDp",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke DS703 FC Diagnostic Video Borescope",
+      "family": "Diagnostic Video Borescope",
+      "product_url": "https://www.fluke.com/en-us/product/industrial-imaging/fluke-ds703-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/flk-240099-en-DS703-FC-diagnostic-borescope-ds-w.pdf?VersionId=dWziRVCblzNL7c7meOl4K.ZYldbgEmnG",
+      "last_verified": "2025-07-14"
     }
   ]
 }
