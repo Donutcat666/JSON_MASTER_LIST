@@ -1,0 +1,346 @@
+{
+  "catalog_rows": [
+    {
+      "model": "87V MAX",
+      "family": "True-RMS Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/87v-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6012841b-en",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "SmartView R&D",
+      "family": "Thermal Imaging Software",
+      "product_url": "https://www.fluke.com/en-us/product/fluke-software/smartview-r-d-thermal-imaging-software",
+      "division": "Test Instruments",
+      "recommended_interval_mo": null,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Baseline",
+      "family": "Thermography Software",
+      "product_url": "https://www.fluke.com/en-us/products/fluke-software/baseline",
+      "division": "Test Instruments",
+      "recommended_interval_mo": null,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Ti300+",
+      "family": "Thermal Camera",
+      "product_url": "https://www.fluke.com/en-us/product/thermal-cameras/ti300plus",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 24,
+      "pdf_ref": "6012670a-en",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Ti401 PRO",
+      "family": "Thermal Camera",
+      "product_url": "https://www.fluke.com/en-us/product/thermal-cameras/ti401-pro",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 24,
+      "pdf_ref": "6012099a-en",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "87V Industrial",
+      "family": "Industrial Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-87v",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "15B+",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-15b-plus",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6002719_0000_ENG_A_W",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "17B+",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-17b-plus",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6002719_0000_ENG_A_W",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "115",
+      "family": "Field Technicians Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-115",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "2793260b-en",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "117",
+      "family": "Electrician's Multimeter with Non-Contact Voltage",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-117",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "2793260b-en",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "279 FC",
+      "family": "True-RMS Thermal Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-279-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "289",
+      "family": "True-RMS Data Logging Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-289",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "101",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-101",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "106",
+      "family": "Palm-sized Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-106",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "107",
+      "family": "Palm-sized Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-107",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "175",
+      "family": "True-RMS Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-175",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "177",
+      "family": "True-RMS Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-177",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "179",
+      "family": "True-RMS Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-179",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "83V",
+      "family": "Average Responding Industrial Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-83v",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "2161164 D-US-N",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "393 FC",
+      "family": "Solar Clamp Meter CAT III 1500 V",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/393-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "376 FC",
+      "family": "True-RMS Clamp Meter with iFlex",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/376-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "374 FC",
+      "family": "True-RMS AC/DC Clamp Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/374-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "375 FC",
+      "family": "True-RMS AC/DC Clamp Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/375-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "377 FC",
+      "family": "Non-Contact Voltage True-RMS AC/DC Clamp Meter with iFlex",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/377-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "378 FC",
+      "family": "Non-Contact Voltage True-RMS AC/DC Clamp Meter with iFlex",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/378-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1777",
+      "family": "Three-Phase Power Quality Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1773-1775-1777",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1775",
+      "family": "Three-Phase Power Quality Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1773-1775-1777",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1773",
+      "family": "Three-Phase Power Quality Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1773-1775-1777",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1748",
+      "family": "Three-Phase Power Quality Logger",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1742-1746-1748",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1746",
+      "family": "Three-Phase Power Quality Logger",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1742-1746-1748",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "1742",
+      "family": "Three-Phase Power Quality Logger",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/1742-1746-1748",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "435-II",
+      "family": "Power Quality and Energy Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/434-435",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "437-II",
+      "family": "400 Hz Power Quality and Energy Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/437-series-ii",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "434-II",
+      "family": "Energy Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/434-435",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "438-II",
+      "family": "Power Quality Analyzer & Motor Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/438-ii",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Ti480 Pro",
+      "family": "Infrared Camera",
+      "product_url": "https://www.fluke.com/en-us/product/thermal-cameras/ti480-pro",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "TiX580",
+      "family": "Infrared Camera",
+      "product_url": "https://www.fluke.com/en-us/product/thermal-cameras/tix580",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "iSee TC01A/TC01B",
+      "family": "Mobile Thermal Camera",
+      "product_url": null,
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "N/A",
+      "last_verified": "2025-07-14"
+    }
+  ]
+}
