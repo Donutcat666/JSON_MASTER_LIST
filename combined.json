@@ -1,0 +1,2398 @@
+{
+  "ITS90_temperature_standards": {
+    "products": [
+      {
+        "model": "5681/5683/5684 Quartz-Sheath SPRTs",
+        "temperature_range": "\u2013200 \u00b0C to 1070 \u00b0C (model-dependent)",
+        "drift_rate": "<0.001 \u00b0C per year (typical)",
+        "nominal_RTPW": "25.5 \u03a9 (5681, 5683); 0.25 \u03a9 (5684)",
+        "uncertainty": "Meets ITS\u201190 SPRT criteria; <0.002 \u00b0C drift per 100 h at high temp"
+      },
+      {
+        "model": "5686-B Glass Capsule SPRT",
+        "temperature_range": "\u2013260 \u00b0C to 232 \u00b0C",
+        "drift_rate": "<0.005 \u00b0C per year",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "\u00b10.001 \u00b0C reproducibility"
+      },
+      {
+        "model": "5698-25 Working Standard SPRT",
+        "temperature_range": "\u2013200 \u00b0C to 670 \u00b0C",
+        "drift_rate": "<0.006 \u00b0C per 100 h at 660 \u00b0C (typical <0.003 \u00b0C)",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "ITS\u201190 compliant; \u00b10.0015 \u00b0C reproducibility"
+      },
+      {
+        "model": "5699 High-Temp Metal-Sheath SPRT",
+        "temperature_range": "\u2013200 \u00b0C to 661 \u00b0C",
+        "drift_rate": "<0.008 \u00b0C per year (\u22643 \u00b0C typical)",
+        "nominal_RTPW": "25.5 \u03a9",
+        "uncertainty": "ITS\u201190 compliant; \u00b10.001 \u00b0C reproducibility"
+      },
+      {
+        "model": "5901 Triple Point of Water Cells",
+        "uncertainty": "\u00b10.0001 \u00b0C (full-size cells); \u00b10.0002 \u00b0C (mini cell)",
+        "reproducibility": "\u00b10.00002 \u00b0C (full-size); \u00b10.00005 \u00b0C (mini)",
+        "construction": "High-purity water sealed in borosilicate or fused-quartz cells; multiple sizes available",
+        "immersion_depth": "265 mm (standard cell); 118 mm (mini cell)"
+      },
+      {
+        "model": "5960A Triple Point of Argon System",
+        "triple_point_temp": "\u2013189.3442 \u00b0C (Argon TP)",
+        "uncertainty": "\u00b10.00025 \u00b0C (k=2)",
+        "plateau_duration": ">30 hours at \u00b10.0001 \u00b0C stability",
+        "capacity": "4 SPRTs (4 wells, 160 mm cell depth)",
+        "notes": "Integrated argon TP realization; LN\u2082-cooled"
+      },
+      {
+        "model": "ITS-90 Fixed-Point Cells",
+        "fixed_points": "Hg, Ga, In, Sn, Zn, Al, Ag, Cu (\u201338.8344 \u00b0C to 1084.62 \u00b0C)",
+        "uncertainty": "\u00b10.2 mK (Mercury) up to \u00b110 mK (Copper) (k=2)",
+        "purity": "Metal samples \u226599.9999% purity sealed in evacuated quartz cells",
+        "plateau_duration": "Days to weeks (varies by metal; Ga ~ weeks)"
+      },
+      {
+        "model": "Mini Fixed-Point Cells",
+        "fixed_points": "H\u2082O, In, Sn, Zn, Al, Ag, Cu (0.01 \u00b0C to 1084.62 \u00b0C)",
+        "uncertainty": "\u00b10.7 mK (In) to \u00b115 mK (Cu) for cell-only (k=2)",
+        "design": "Smaller cells for cost-effective primary standards (quartz or metal shells)",
+        "notes": "Shorter plateaus (~6\u201310 hours) with easy maintenance"
+      },
+      {
+        "model": "6331/7341/7381 Deep-Well Compact Baths",
+        "temperature_range": "35 \u00b0C to 300 \u00b0C (6331); \u201345 \u00b0C to 150 \u00b0C (7341); \u201380 \u00b0C to 110 \u00b0C (7381)",
+        "stability": "\u00b10.005 to \u00b10.015 \u00b0C",
+        "uniformity": "\u00b10.007 to \u00b10.025 \u00b0C across wells",
+        "bath_depth": "457 mm (18 in) deep immersion",
+        "notes": "High-stability stirred liquid baths for sensor calibration"
+      },
+      {
+        "model": "7008/7037/7012/7011 Refrigerated Baths",
+        "temperature_range": "\u201340 \u00b0C to 110 \u00b0C (model-dependent)",
+        "stability": "\u00b10.001 to \u00b10.003 \u00b0C",
+        "uniformity": "\u00b10.002 to \u00b10.004 \u00b0C",
+        "volume": "27\u201342 L bath volume (model-dependent)",
+        "notes": "Precision refrigerated baths for \u201340 \u00b0C to +110 \u00b0C calibration"
+      },
+      {
+        "model": "7312 TPW Maintenance Bath",
+        "temperature_range": "\u20135 \u00b0C to 110 \u00b0C",
+        "stability": "\u00b10.001 \u00b0C at 0 \u00b0C",
+        "plateau_duration": "Maintains TPW cells ~6 weeks",
+        "bath_depth": "496 mm immersion for TPW cells",
+        "notes": "Low-drift bath for long-term Triple Point of Water maintenance"
+      },
+      {
+        "model": "9114/9115A/9116A Freeze-Point Furnaces",
+        "temperature_range": "100 \u00b0C to 680 \u00b0C (9114); 550 \u00b0C to 1000 \u00b0C (9115A); 550 \u00b0C to 1100 \u00b0C (9116A)",
+        "stability": "\u00b10.03 \u00b0C (9114); \u00b10.25 \u00b0C (9115A); \u00b10.5 \u00b0C (9116A)",
+        "application": "Realizing metal freeze points (Zn, Al, Ag, Cu) with high stability",
+        "notes": "Multi-zone furnaces (9115A/9116A use heat-pipe for 550+ \u00b0C) for ITS-90 fixed-point cells"
+      },
+      {
+        "model": "9117 Annealing Furnace",
+        "temperature_range": "300 \u00b0C to 1100 \u00b0C",
+        "stability": "\u00b10.5 \u00b0C",
+        "capacity": "5 SPRTs (430 mm length wells)",
+        "purpose": "Anneals SPRTs to relieve strain and restore stability",
+        "notes": "PID programmable; prevents sensor contamination during annealing"
+      },
+      {
+        "model": "9210 Mini TPW Maintenance Apparatus",
+        "temperature_range": "\u201310 \u00b0C to 125 \u00b0C",
+        "stability": "\u00b10.02 \u00b0C",
+        "plateau_duration": "~8 hours (mini TPW)",
+        "application": "Maintains mini Triple-Point-of-Water and Gallium cells in the lab",
+        "notes": "Portable 7 kg unit; up to 3 preheat wells for probes"
+      },
+      {
+        "model": "9230 Gallium Cell Maintenance Apparatus",
+        "temperature_range": "15 \u00b0C to 35 \u00b0C",
+        "stability": "\u00b10.02 \u00b0C",
+        "plateau_duration": "\u22485 days (Gallium melt plateau)",
+        "application": "Automated maintenance of metal-cased Gallium melting-point cell (29.7646 \u00b0C)",
+        "notes": "Ensures \u00b10.05 \u00b0C accuracy at Gallium point; includes pre-cool and melt control"
+      },
+      {
+        "model": "9260 Mini Fixed-Point Cell Furnace",
+        "temperature_range": "50 \u00b0C to 680 \u00b0C",
+        "stability": "\u00b10.03 \u00b0C (\u2264300 \u00b0C); \u00b10.05 \u00b0C (>300 \u00b0C)",
+        "application": "Realizing mini In/Sn/Zn/Al freeze-point cells in a compact furnace",
+        "plateau_duration": "~6\u201310 hours (typical)",
+        "notes": "Bench-top size, 9-inch immersion; suitable for mini quartz or metal fixed-point cells"
+      },
+      {
+        "model": "7196B LN\u2082 Comparison Calibrator",
+        "temperature_range": "\u2248 \u2013196 \u00b0C (LN\u2082 boil; equivalent to Argon TP with correction)",
+        "stability": "\u22640.002 \u00b0C (2 mK) over 20 min",
+        "uniformity": "<0.0004 \u00b0C across wells",
+        "capacity": "Dewar + Cu block; available with 4 wells or 13 wells (8 mm & 6.35 mm)",
+        "uncertainty": "< \u00b10.002 \u00b0C of Argon triple point"
+      }
+    ],
+    "accessories": [
+      {
+        "model": "2027-5901",
+        "description": "TPW Holding Fixture for TPW cell (fits Fluke 7012/7037 baths)"
+      }
+    ]
+  },
+  "electrical_calibrator_specs": [
+    {
+      "model": "5560A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Inductance_src",
+        "Temp_sim",
+        "Power_sim",
+        "Fast_edge_src"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "1 mV to 1020 V (3 Hz\u2013500 kHz)",
+        "DCI_src": "0 to 30.2 A",
+        "ACI_src": "10 \u00b5A to 30.2 A (3 Hz\u201330 kHz)",
+        "Resistance_src": "0 \u03a9 to 1.1 G\u03a9",
+        "Capacitance_src": "0 nF to 120 mF",
+        "Inductance_src": "12 \u00b5H to 120 H",
+        "Temp_sim": "Thermocouples (17 types), RTDs (Pt, Ni, Cu types)",
+        "Power_sim": "Up to 30.9 kW (phantom load)",
+        "Fast_edge_src": "<175 ps rise time"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b19 ppm",
+        "ACV_src": "\u00b1140 ppm (to 10 kHz)",
+        "DCI_src": "\u00b180 ppm (\u22643 A)",
+        "ACI_src": "\u00b1250 ppm (\u226410 kHz)",
+        "Resistance_src": "\u00b122 ppm (mid-range)",
+        "Capacitance_src": "\u00b10.25%",
+        "Inductance_src": "\u00b10.5%",
+        "Temp_sim": "\u00b10.5 \u00b0C (typical)",
+        "Power_sim": "\u00b10.3% (typical)",
+        "Fast_edge_src": "\u00b140 ps jitter"
+      },
+      "pdf_ref": "2230414-en"
+    },
+    {
+      "model": "5550A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Temp_sim",
+        "Power_sim",
+        "Fast_edge_src"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "1 mV to 1020 V (3 Hz\u2013300 kHz)",
+        "DCI_src": "0 to 30.2 A",
+        "ACI_src": "10 \u00b5A to 30.2 A (3 Hz\u201310 kHz)",
+        "Resistance_src": "0 \u03a9 to 1.1 G\u03a9",
+        "Capacitance_src": "0 nF to 120 mF",
+        "Temp_sim": "Thermocouples (17 types), RTDs (same as 5560A)",
+        "Power_sim": "Up to 30.9 kW (phantom load)",
+        "Fast_edge_src": "<300 ps rise time"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b111 ppm",
+        "ACV_src": "\u00b1160 ppm (to 10 kHz)",
+        "DCI_src": "\u00b1100 ppm (\u22643 A)",
+        "ACI_src": "\u00b1300 ppm (\u22641 kHz)",
+        "Resistance_src": "\u00b125 ppm (mid-range)",
+        "Capacitance_src": "\u00b10.25%",
+        "Temp_sim": "\u00b11 \u00b0C (typical)",
+        "Power_sim": "\u00b10.5% (typical)",
+        "Fast_edge_src": "\u00b150 ps jitter"
+      },
+      "pdf_ref": "2230414-en"
+    },
+    {
+      "model": "5540A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Temp_sim",
+        "Power_sim"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "1 mV to 1020 V (3 Hz\u2013100 kHz)",
+        "DCI_src": "0 to 22 A",
+        "ACI_src": "10 \u00b5A to 22 A (3 Hz\u201310 kHz)",
+        "Resistance_src": "0 \u03a9 to 1.1 G\u03a9",
+        "Capacitance_src": "0 nF to 120 mF",
+        "Temp_sim": "Thermocouples (17 types), RTDs (limited types)",
+        "Power_sim": "Up to 20 kW (phantom load)"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b115 ppm",
+        "ACV_src": "\u00b1300 ppm",
+        "DCI_src": "\u00b1150 ppm",
+        "ACI_src": "\u00b1500 ppm",
+        "Resistance_src": "\u00b128 ppm",
+        "Capacitance_src": "\u00b10.5%",
+        "Temp_sim": "\u00b11 \u00b0C",
+        "Power_sim": "\u00b10.7%"
+      },
+      "pdf_ref": "2230414-en"
+    },
+    {
+      "model": "5530A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Power_sim"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "33 mV to 1020 V (45 Hz\u20135 kHz)",
+        "DCI_src": "0 to 20.5 A",
+        "ACI_src": "3.3 mA to 20.5 A (45 Hz\u20131 kHz)",
+        "Resistance_src": "0 \u03a9 to 100 M\u03a9",
+        "Capacitance_src": "Fixed values up to 100 \u00b5F",
+        "Power_sim": "Up to 5 kW"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b150 ppm",
+        "ACV_src": "\u00b10.05%+90 \u00b5V",
+        "DCI_src": "\u00b1300 ppm",
+        "ACI_src": "\u00b10.12% (50 Hz)",
+        "Resistance_src": "\u00b10.1 \u03a9 floor",
+        "Capacitance_src": "\u00b11%",
+        "Power_sim": "\u00b11%"
+      },
+      "pdf_ref": "2230414-en"
+    },
+    {
+      "model": "5522A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Temp_sim",
+        "Power_sim",
+        "Fast_edge_src"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "1 mV to 1020 V (10 Hz\u2013500 kHz)",
+        "DCI_src": "0 to 20.5 A",
+        "ACI_src": "10 \u00b5A to 20.5 A (10 Hz\u201310 kHz)",
+        "Resistance_src": "0 \u03a9 to 1.1 G\u03a9 (variable)",
+        "Capacitance_src": "1 nF to 40 mF (fixed steps)",
+        "Temp_sim": "Thermocouple & RTD (with adapter)",
+        "Power_sim": "Up to 20 kW (phantom load)",
+        "Fast_edge_src": "~300 ps rise time (with scope option)"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b111 ppm (90 day)",
+        "ACV_src": "\u00b10.012% (1 kHz)",
+        "DCI_src": "\u00b180 ppm (1 A)",
+        "ACI_src": "\u00b10.05% (45 Hz)",
+        "Resistance_src": "\u00b122 ppm + floor",
+        "Capacitance_src": "\u00b10.5%",
+        "Temp_sim": "\u00b10.3 \u00b0C (typical)",
+        "Power_sim": "\u00b10.5%",
+        "Fast_edge_src": "\u00b1150 ps"
+      },
+      "pdf_ref": "Fluke 5522A Extended Specs"
+    },
+    {
+      "model": "5502A",
+      "functions_supported": [
+        "DCV_src",
+        "ACV_src",
+        "DCI_src",
+        "ACI_src",
+        "Resistance_src",
+        "Capacitance_src",
+        "Temp_sim",
+        "Power_sim",
+        "Fast_edge_src"
+      ],
+      "range": {
+        "DCV_src": "0 to 1020 V",
+        "ACV_src": "1 mV to 1020 V (10 Hz\u2013120 kHz)",
+        "DCI_src": "0 to 20.5 A",
+        "ACI_src": "10 \u00b5A to 20.5 A (10 Hz\u201310 kHz)",
+        "Resistance_src": "0 \u03a9 to 1100 M\u03a9",
+        "Capacitance_src": "0.1 \u00b5F, 1 \u00b5F, 10 \u00b5F, 100 \u00b5F (discrete)",
+        "Temp_sim": "Thermocouple & RTD (optional)",
+        "Power_sim": "Up to 20 kW",
+        "Fast_edge_src": "\u22642 ns (with 600 MHz option)"
+      },
+      "uncertainty": {
+        "DCV_src": "\u00b150 ppm",
+        "ACV_src": "\u00b10.02% (\u22645 kHz)",
+        "DCI_src": "\u00b1150 ppm (\u22641 A)",
+        "ACI_src": "\u00b10.1% (45 Hz)",
+        "Resistance_src": "\u00b130 ppm + floor",
+        "Capacitance_src": "\u00b11%",
+        "Temp_sim": "\u00b11 \u00b0C",
+        "Power_sim": "\u00b10.7%",
+        "Fast_edge_src": "\u00b11 ns"
+      },
+      "pdf_ref": "11872-eng"
+    }
+  ],
+  "fluke_calibrator_catalog": {
+    "catalog_rows": [
+      {
+        "model": "5560A",
+        "functions_supported": [
+          "DCV_src",
+          "ACV_src",
+          "DCI_src",
+          "ACI_src",
+          "Resistance_src",
+          "Capacitance_src",
+          "Inductance_src",
+          "Temp_sim",
+          "Power_sim",
+          "Fast_edge_src"
+        ],
+        "range": {
+          "DCV_src": "0 to 1020 V",
+          "ACV_src": "1 mV to 1020 V (3 Hz\u2013500 kHz)",
+          "DCI_src": "0 to 30.2 A",
+          "ACI_src": "10 \u00b5A to 30.2 A (3 Hz\u201330 kHz)",
+          "Resistance_src": "0 \u03a9 to 1.1 G\u03a9",
+          "Capacitance_src": "0 nF to 120 mF",
+          "Inductance_src": "12 \u00b5H to 120 H",
+          "Temp_sim": "Thermocouples (17 types), RTDs (Pt, Ni, Cu types)",
+          "Power_sim": "Up to 30.9 kW",
+          "Fast_edge_src": "<175 ps"
+        },
+        "uncertainty": {
+          "DCV_src": "\u00b19 ppm",
+          "ACV_src": "\u00b1140 ppm",
+          "DCI_src": "\u00b180 ppm",
+          "ACI_src": "\u00b1250 ppm",
+          "Resistance_src": "\u00b122 ppm",
+          "Capacitance_src": "\u00b10.25%",
+          "Inductance_src": "\u00b10.5%",
+          "Temp_sim": "\u00b10.5 \u00b0C",
+          "Power_sim": "\u00b10.3%",
+          "Fast_edge_src": "\u00b140 ps"
+        },
+        "pdf_ref": "2230414-en"
+      },
+      {
+        "model": "8558A",
+        "functions_supported": [
+          "DCV_meas",
+          "ACV_meas",
+          "DCI_meas",
+          "ACI_meas",
+          "Resistance_meas",
+          "Frequency_meas"
+        ],
+        "range": {
+          "DCV_meas": "0 to \u00b11000 V",
+          "ACV_meas": "1 \u03bcV to 1000 V (10 Hz\u20131 MHz)",
+          "DCI_meas": "0 to \u00b110 A",
+          "ACI_meas": "100 \u03bcA to 10 A (10 Hz\u2013100 kHz)",
+          "Resistance_meas": "0 \u03a9 to 1 G\u03a9",
+          "Frequency_meas": "1 Hz to 5 MHz"
+        },
+        "uncertainty": {
+          "DCV_meas": "\u00b12.7 ppm",
+          "ACV_meas": "\u00b135 ppm (1 kHz)",
+          "DCI_meas": "\u00b130 ppm",
+          "ACI_meas": "\u00b1250 ppm",
+          "Resistance_meas": "\u00b15 ppm",
+          "Frequency_meas": "\u00b10.1 ppm"
+        },
+        "pdf_ref": "8558A_datasheet"
+      },
+      {
+        "model": "8588A",
+        "functions_supported": [
+          "DCV_meas",
+          "ACV_meas",
+          "DCI_meas",
+          "ACI_meas",
+          "Resistance_meas",
+          "Frequency_meas"
+        ],
+        "range": {
+          "DCV_meas": "0 to \u00b11000 V",
+          "ACV_meas": "1 \u03bcV to 1000 V (10 Hz\u20132 MHz)",
+          "DCI_meas": "0 to \u00b110 A",
+          "ACI_meas": "100 \u03bcA to 10 A (10 Hz\u2013100 kHz)",
+          "Resistance_meas": "0 \u03a9 to 1 G\u03a9",
+          "Frequency_meas": "1 Hz to 10 MHz"
+        },
+        "uncertainty": {
+          "DCV_meas": "\u00b11.8 ppm",
+          "ACV_meas": "\u00b125 ppm (1 kHz)",
+          "DCI_meas": "\u00b125 ppm",
+          "ACI_meas": "\u00b1200 ppm",
+          "Resistance_meas": "\u00b13 ppm",
+          "Frequency_meas": "\u00b10.05 ppm"
+        },
+        "pdf_ref": "8588A_datasheet"
+      },
+      {
+        "model": "5790B",
+        "functions_supported": [
+          "ACV_meas",
+          "ACV_comp",
+          "AC/DC_transfer"
+        ],
+        "range": {
+          "ACV_meas": "1 mV to 1000 V (10 Hz\u20131 MHz)",
+          "ACV_comp": "5 mV to 200 V (10 Hz\u2013100 kHz)",
+          "AC/DC_transfer": "Up to 1000 V"
+        },
+        "uncertainty": {
+          "ACV_meas": "\u00b124 ppm",
+          "ACV_comp": "\u00b16 ppm",
+          "AC/DC_transfer": "\u00b18 ppm"
+        },
+        "pdf_ref": "5790B_datasheet"
+      },
+      {
+        "model": "5335A",
+        "functions_supported": [
+          "ACV_src",
+          "ACI_src"
+        ],
+        "range": {
+          "ACV_src": "0.1 V to 1000 V (10 Hz\u201320 kHz)",
+          "ACI_src": "1 mA to 10 A (10 Hz\u20135 kHz)"
+        },
+        "uncertainty": {
+          "ACV_src": "\u00b1200 ppm",
+          "ACI_src": "\u00b1500 ppm"
+        },
+        "pdf_ref": "5335A_datasheet"
+      },
+      {
+        "model": "5440B",
+        "functions_supported": [
+          "DCV_src"
+        ],
+        "range": {
+          "DCV_src": "0 to 1110 V"
+        },
+        "uncertainty": {
+          "DCV_src": "\u00b15 ppm"
+        },
+        "pdf_ref": "5440B_spec"
+      },
+      {
+        "model": "5100A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5101B",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5110",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5725A-AUX",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5220A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "9640A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "9410A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5305A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5180A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "6102A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "6135A",
+        "spec_status": "TODO"
+      },
+      {
+        "model": "5500A/COIL",
+        "accessory_for": "5500A",
+        "function": "High current coil",
+        "pdf_ref": "5500A_COIL_sheet"
+      },
+      {
+        "model": "52120A/COIL12",
+        "accessory_for": "52120A",
+        "function": "12-turn coil",
+        "pdf_ref": "52120A_COIL12_sheet"
+      },
+      {
+        "model": "8508A_leads",
+        "accessory_for": "8508A",
+        "function": "Kelvin leads",
+        "pdf_ref": "8508A_leads_sheet"
+      },
+      {
+        "model": "4180/4181",
+        "family": "Precision IR Calibrators",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-4180-4181",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://measurementasia.com/wp-content/uploads/2021/08/fluke-4180-4181-datasheet.pdf",
+        "functions_supported": [
+          "IR_src"
+        ],
+        "range": {
+          "IR_src": "4180: \u201315 \u00b0C to 120 \u00b0C; 4181: 35 \u00b0C to 500 \u00b0C"
+        },
+        "uncertainty": {
+          "IR_src": "\u00b10.40 \u00b0C at low/mid-range; \u00b10.5 \u00b0C at max"
+        }
+      },
+      {
+        "model": "9132/9133",
+        "family": "Portable Infrared Calibrator",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9132-9133",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/6001702_0000_eng_c_w.pdf",
+        "functions_supported": [
+          "IR_src"
+        ],
+        "range": {
+          "IR_src": "9133: \u201330 \u00b0C to 150 \u00b0C; 9132: ambient to 500 \u00b0C"
+        },
+        "uncertainty": {
+          "IR_src": "\u00b10.35 \u00b0C typical; \u00b10.5 \u00b0C max"
+        }
+      },
+      {
+        "model": "6102/7102/7103",
+        "family": "Micro-Bath",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-6102-7102-7103",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://docs.rs-online.com/983a/A700000011056337.pdf",
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "6102: 35 \u00b0C to 200 \u00b0C; 7102: \u20135 \u00b0C to 125 \u00b0C; 7103: \u201330 \u00b0C to 125 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C display; stability \u00b10.02\u20130.03 \u00b0C"
+        }
+      },
+      {
+        "model": "6109A/7109A",
+        "family": "Portable Calibration Baths",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-6109a-7109a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://docs.rs-online.com/cfc2/A700000010401782.pdf",
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "6109A: 35 \u00b0C to 250 \u00b0C; 7109A: \u201325 \u00b0C to 140 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.1 \u00b0C system; stability \u00b10.01\u20130.02 \u00b0C"
+        }
+      },
+      {
+        "model": "9100S",
+        "family": "Handheld Dry-Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9100s",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "35 \u00b0C to 375 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C mid-range; \u00b10.5 \u00b0C at 375 \u00b0C"
+        }
+      },
+      {
+        "model": "9102S",
+        "family": "Handheld Dry-Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9102s",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "\u201310 \u00b0C to 122 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C full range; stability \u00b10.05 \u00b0C"
+        }
+      },
+      {
+        "model": "712B",
+        "family": "RTD Calibrator",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-712b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/6001702_0000_eng_c_w.pdf",
+        "functions_supported": [
+          "RTD_sim"
+        ],
+        "range": {
+          "RTD_sim": "Simulates 13 RTD types (\u2248 \u2013200 \u00b0C to 800 \u00b0C)"
+        },
+        "uncertainty": {
+          "RTD_sim": "\u00b10.2 \u00b0C typical; \u00b10.4 \u00b0C extended"
+        }
+      },
+      {
+        "model": "714B",
+        "family": "Thermocouple Calibrator",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-714b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/6001702_0000_eng_c_w.pdf",
+        "functions_supported": [
+          "TC_sim"
+        ],
+        "range": {
+          "TC_sim": "Simulates 17 TC types (\u2013250 \u00b0C to 1800+ \u00b0C)"
+        },
+        "uncertainty": {
+          "TC_sim": "\u00b10.5 \u00b0C mid-range; \u00b11 \u00b0C extremes"
+        }
+      },
+      {
+        "model": "724",
+        "family": "Temperature Calibrator",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-724",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": "https://www.fluke-direct.com/pdfs/cache/www.fluke-direct.com/724/datasheet/724-datasheet.pdf",
+        "functions_supported": [
+          "TC_sim",
+          "RTD_sim"
+        ],
+        "range": {
+          "TC_sim": "12 TC types \u2013270 \u00b0C to 1767 \u00b0C",
+          "RTD_sim": "7 RTD types \u2013200 \u00b0C to 800 \u00b0C"
+        },
+        "uncertainty": {
+          "TC_sim": "\u00b10.3\u20130.8 \u00b0C",
+          "RTD_sim": "\u00b10.2 \u00b0C"
+        }
+      },
+      {
+        "model": "9144",
+        "family": "Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9144",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "50 \u00b0C to 660 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.5 \u00b0C at 660 \u00b0C; stability \u00b10.05 \u00b0C"
+        }
+      },
+      {
+        "model": "9143",
+        "family": "Field Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9143",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "33 \u00b0C to 350 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.3 \u00b0C; stability \u00b10.03 \u00b0C"
+        }
+      },
+      {
+        "model": "9142",
+        "family": "Field Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9142",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "\u201325 \u00b0C to 150 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C; stability \u00b10.01 \u00b0C"
+        }
+      },
+      {
+        "model": "9009",
+        "family": "Dual-Well Dry-Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9009",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "\u201315 \u00b0C to 110 \u00b0C (cold); 50 \u00b0C to 350 \u00b0C (hot)"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.2 \u00b0C cold; \u00b10.6 \u00b0C hot"
+        }
+      },
+      {
+        "model": "9103/9140",
+        "family": "Field Dry-Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9103-9140",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "9103: \u201325 \u00b0C to 140 \u00b0C; 9140: 35 \u00b0C to 350 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C (9103); \u00b10.5 \u00b0C (9140)"
+        }
+      },
+      {
+        "model": "9170",
+        "family": "Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9170",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "-30 \u00b0C to 150 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.1 \u00b0C; stability \u00b10.005 \u00b0C"
+        }
+      },
+      {
+        "model": "9171",
+        "family": "Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9171",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "-30 \u00b0C to 155 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.1 \u00b0C; stability \u00b10.005 \u00b0C"
+        }
+      },
+      {
+        "model": "9172",
+        "family": "Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9172",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "35 \u00b0C to 425 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.2 \u00b0C at 425 \u00b0C; stability \u00b10.005 \u00b0C"
+        }
+      },
+      {
+        "model": "9173",
+        "family": "Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9173",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "50 \u00b0C to 700 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.25 \u00b0C at 700 \u00b0C; stability \u00b10.03 \u00b0C"
+        }
+      },
+      {
+        "model": "9101",
+        "family": "Zero-Point Dry-Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/9101-zero-point-dry-well",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "0 \u00b0C fixed"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.02 \u00b0C typical; \u00b10.05 \u00b0C max"
+        }
+      },
+      {
+        "model": "9118A",
+        "family": "Thermocouple Calibration Furnace",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-9118a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "pdf_ref": null,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "300 \u00b0C to 1200 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b15 \u00b0C; stability \u00b10.5 \u00b0C"
+        }
+      },
+      {
+        "model": "9150",
+        "family": "Thermocouple Furnace",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-9150",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "150 \u00b0C to 1200 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b15 \u00b0C display"
+        }
+      },
+      {
+        "model": "9190A",
+        "family": "Ultra-Cool Field Metrology Well",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-9190a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temp_src"
+        ],
+        "range": {
+          "Temp_src": "\u201395 \u00b0C to 140 \u00b0C"
+        },
+        "uncertainty": {
+          "Temp_src": "\u00b10.2 \u00b0C full range"
+        }
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "4180/4181",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://measurementasia.com/wp-content/uploads/2021/08/fluke-4180-4181-datasheet.pdf"
+      },
+      {
+        "model": "9132/9133",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/6001702_0000_eng_c_w.pdf"
+      },
+      {
+        "model": "6102/7102/7103",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://docs.rs-online.com/983a/A700000011056337.pdf"
+      },
+      {
+        "model": "6109A/7109A",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://docs.rs-online.com/cfc2/A700000010401782.pdf"
+      },
+      {
+        "model": "712B/714B",
+        "doc_type": "Technical Data",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/6001702_0000_eng_c_w.pdf"
+      },
+      {
+        "model": "724",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://www.fluke-direct.com/pdfs/cache/www.fluke-direct.com/724/datasheet/724-datasheet.pdf"
+      },
+      {
+        "model": "9150",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://www.axiomtest.com/documents/models/Fluke%209150-A%20Datasheet.pdf"
+      },
+      {
+        "model": "9190A",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://assets.testequity.com/te1/Documents/pdf/fluke/Fluke_9190A-A-156_Dry-Well-Ultra-Cold-Insrt-A-115V_Data-Sheet.pdf"
+      }
+    ]
+  },
+  "fluke_catalog_demo": {
+    "catalog_rows": [
+      {
+        "model": "5560A",
+        "family": "Electrical Calibrator",
+        "division": "Electrical"
+      },
+      {
+        "model": "4180/4181",
+        "family": "Precision IR Calibrators",
+        "division": "Temperature"
+      },
+      {
+        "model": "5681/5683/5684",
+        "family": "Quartz\u2011Sheath SPRTs",
+        "division": "Temperature Calibration"
+      },
+      {
+        "model": "5960A",
+        "family": "Argon TP System",
+        "division": "Temperature Calibration"
+      },
+      {
+        "model": "2027-5901",
+        "accessory_for": null,
+        "function": "TPW Holding Fixture"
+      },
+      {
+        "model": "1594-CASE",
+        "accessory_for": null,
+        "function": "Case for 1594A"
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "5560A",
+        "doc_type": "Data Sheet"
+      }
+    ]
+  },
+  "digital_thermometer_readouts": {
+    "catalog_rows": [
+      {
+        "model": "1551A Ex",
+        "family": "Intrinsically Safe Stik Thermometer",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1551a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature"
+        ],
+        "range": {
+          "Temperature": "-50 \u00b0C to 160 \u00b0C"
+        },
+        "uncertainty": {
+          "Temperature": "\u00b10.05 \u00b0C"
+        },
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1552A Ex",
+        "family": "Intrinsically Safe Stik Thermometer",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1552a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature"
+        ],
+        "range": {
+          "Temperature": "-80 \u00b0C to 300 \u00b0C"
+        },
+        "uncertainty": {
+          "Temperature": "\u00b10.05 \u00b0C"
+        },
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1620A",
+        "family": "DewK Thermo-Hygrometer",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/temperature-calibrators/fluke-calibration-1620a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature",
+          "Humidity"
+        ],
+        "range": {
+          "Temperature": "0 \u00b0C to 50 \u00b0C (operating)",
+          "Humidity": "0 % to 100 % RH"
+        },
+        "uncertainty": {
+          "Temperature": "\u00b10.125 \u00b0C (typical)",
+          "Humidity": "\u00b11.5 %RH (typical)"
+        },
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3397500_6200_ENG_B_W.PDF",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2560",
+        "family": "Black Stack SPRT Module (2-channel, 25 \u03a9 & 100 \u03a9)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "PRTs"
+        ],
+        "range": {
+          "PRTs": "-200 \u00b0C to 962 \u00b0C (with appropriate SPRT/PRT)"
+        },
+        "uncertainty": {
+          "PRTs": "\u00b10.005 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2561",
+        "family": "Black Stack High-Temp PRT Module (2-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2561",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "HTPRTs"
+        ],
+        "range": {
+          "HTPRTs": "up to 1200 \u00b0C"
+        },
+        "uncertainty": {
+          "HTPRTs": "\u00b10.013 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2562",
+        "family": "Black Stack PRT Scanner Module (8-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2562",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "PRTs"
+        ],
+        "range": {
+          "PRTs": "-200 \u00b0C to 660 \u00b0C (typical RTD range)"
+        },
+        "uncertainty": {
+          "PRTs": "\u00b10.01 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2563",
+        "family": "Black Stack Standards Thermistor Module (2-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2563",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Thermistors"
+        ],
+        "range": {
+          "Thermistors": "0 \u00b0C to 100 \u00b0C"
+        },
+        "uncertainty": {
+          "Thermistors": "\u00b10.0013 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2564",
+        "family": "Black Stack Thermistor Scanner Module (8-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2564",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Thermistors"
+        ],
+        "range": {
+          "Thermistors": "0 \u00b0C to 100 \u00b0C"
+        },
+        "uncertainty": {
+          "Thermistors": "\u00b10.0025 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2565",
+        "family": "Black Stack Precision Thermocouple Module (2-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2565",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Thermocouples"
+        ],
+        "range": {
+          "Thermocouples": "Depending on type, up to ~1820 \u00b0C (Type B)"
+        },
+        "uncertainty": {
+          "Thermocouples": "\u00b10.05 \u00b0C (internal CJC at 0 \u00b0C)"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2566",
+        "family": "Black Stack Thermocouple Scanner Module (12-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2566",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Thermocouples"
+        ],
+        "range": {
+          "Thermocouples": "Depending on type, up to ~1820 \u00b0C (Type B)"
+        },
+        "uncertainty": {
+          "Thermocouples": "\u00b10.1 \u00b0C (internal CJC at 0 \u00b0C)"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2567",
+        "family": "Black Stack 1000 \u03a9 PRT Module (2-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2567",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "1000 \u03a9 PRTs"
+        ],
+        "range": {
+          "1000 \u03a9 PRTs": "-200 \u00b0C to 660 \u00b0C (typical)"
+        },
+        "uncertainty": {
+          "1000 \u03a9 PRTs": "\u00b10.006 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2568",
+        "family": "Black Stack 1000 \u03a9 PRT Scanner Module (8-channel)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature-calibration/2560#2568",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "1000 \u03a9 PRTs"
+        ],
+        "range": {
+          "1000 \u03a9 PRTs": "-200 \u00b0C to 660 \u00b0C (typical)"
+        },
+        "uncertainty": {
+          "1000 \u03a9 PRTs": "\u00b10.01 \u00b0C at 0 \u00b0C"
+        },
+        "pdf_ref": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "last_verified": "2025-07-15"
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "1551A Ex",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________umeng0300.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1551A Ex",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1551A Ex",
+        "doc_type": "Calibration Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________cmeng0000.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1552A Ex",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________umeng0300.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1552A Ex",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3947275b-155X-STIK-Thermometer-brochure-w.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1552A Ex",
+        "doc_type": "Calibration Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1551_1552________cmeng0000.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1620A",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1620A___Rebrand_ugeng0100.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1620A",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3397500_6200_ENG_B_W.PDF",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1560",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/1560w___ugeng0000.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "1560",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2560",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2561",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2562",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2563",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2564",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2565",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2566",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2567",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2568",
+        "doc_type": "Datasheet",
+        "url": "https://www.aaatesters.com/pub/media/datasheets/fluke_1560_specifications_spec_sheet.pdf",
+        "source_site": "aaatesters.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      }
+    ]
+  },
+  "multifunction_temp_calibrators": {
+    "catalog_rows": [
+      {
+        "model": "7526A",
+        "family": "Precision Process Calibrator",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/electrical-calibration/electrical-calibrators/7526a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "DC Voltage",
+          "DC Current",
+          "Resistance",
+          "Thermocouple",
+          "RTD",
+          "Pressure (with modules)"
+        ],
+        "range": {
+          "DC Voltage Output": {
+            "range": "-10 mV to 100 V",
+            "uncertainty": "\u00b130 ppm of output + 3 \u00b5V (1-year)"
+          },
+          "DC Voltage Input": {
+            "range": "0 to 100 V",
+            "uncertainty": "\u00b1100 ppm of reading + 0.2 mV (0-10 V); \u00b1100 ppm + 2 mV (10-100 V) (1-year)"
+          },
+          "DC Current Output": {
+            "range": "0 to 100 mA",
+            "uncertainty": "\u00b150 ppm of reading + 1 \u00b5A (1-year)"
+          },
+          "DC Current Input": {
+            "range": "0 to 50 mA (isolated); 0 to 24 mA (loop)",
+            "uncertainty": "\u00b1100 ppm of reading + 1 \u00b5A (1-year)"
+          },
+          "Resistance Output": {
+            "range": "5 \u03a9 to 4 k\u03a9",
+            "uncertainty": "\u00b10.015 \u03a9 (\u2264400 \u03a9); \u00b10.3 \u03a9 (\u22644 k\u03a9) (23 \u00b15 \u00b0C, 1-year)"
+          },
+          "Resistance Input": {
+            "range": "0 to 4 k\u03a9",
+            "uncertainty": "\u00b120 ppm of reading + 0.004 \u03a9 (\u2264400 \u03a9); +0.04 \u03a9 (\u22644 k\u03a9) (1-year)"
+          },
+          "Thermocouple Output": {
+            "range": "-250 to 1372 \u00b0C (TC types J, K, T, etc.)",
+            "uncertainty": "\u00b10.1 \u00b0C (Type K, -100 to 800 \u00b0C, 1-year)"
+          },
+          "Thermocouple Input": {
+            "range": "-250 to 1372 \u00b0C (TC types J, K, T, etc.)",
+            "uncertainty": "\u00b10.1 \u00b0C (Type K, -100 to 800 \u00b0C, 1-year)"
+          },
+          "RTD Output": {
+            "range": "-200 to 800 \u00b0C (Pt100)",
+            "uncertainty": "\u00b10.05 \u00b0C (-200 to 630 \u00b0C, Pt100, 1-year)"
+          },
+          "RTD Input": {
+            "range": "-80 to 800 \u00b0C (Pt100)",
+            "uncertainty": "\u00b10.02 \u00b0C (-80 to 100 \u00b0C, Pt100, 1-year)"
+          },
+          "Pressure (with modules)": {
+            "range": "1 inH\u2082O to 10,000 psi",
+            "uncertainty": "\u00b10.008% of reading (with Fluke 525A-P modules)"
+          }
+        },
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/4253244C_EN-w_0.pdf"
+      },
+      {
+        "model": "7526A-CASE",
+        "family": "Carrying Case for 7526A",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/cases/7526a-case",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [],
+        "range": {},
+        "pdf_ref": ""
+      },
+      {
+        "model": "Y7526A",
+        "family": "Rack Mount Kit",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/rack-mounts-and-hardware/y7526a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [],
+        "range": {},
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/y7526a__iseng0000.pdf"
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "7526A",
+        "doc_type": "Datasheet",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/4253244C_EN-w_0.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "User Manual",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526a___umeng0000.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "User Manual Supplement",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___umeng0006.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Calibration Manual",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526a___1cmeng0000_0.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Calibration Manual Supplement",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___cmeng0003.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Memory Volatility Statement",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___mveng0000.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Getting Started Guide",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___gseng0000.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Getting Started Supplement",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/7526A___gseng0005.pdf"
+      },
+      {
+        "model": "7526A",
+        "doc_type": "Brochure",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/4226314d-en-7526A-brochure-w_0.pdf"
+      },
+      {
+        "model": "Y7526A",
+        "doc_type": "Instruction Sheet",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/y7526a__iseng0000.pdf"
+      }
+    ]
+  },
+  "temperature_probes_sensors": {
+    "catalog_rows": [
+      {
+        "model": "5615-6",
+        "family": "Secondary Reference PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 300 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+        "dimensions": "152 mm length x 4.76 mm diameter",
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+      },
+      {
+        "model": "5615-9",
+        "family": "Secondary Reference PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 420 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+        "dimensions": "229 mm length x 4.76 mm diameter",
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+      },
+      {
+        "model": "5615-12",
+        "family": "Secondary Reference PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5615",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 420 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; drift \u00b10.007 \u00b0C at 0.01 \u00b0C",
+        "dimensions": "305 mm length x 6.35 mm diameter",
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+      },
+      {
+        "model": "5622-05",
+        "family": "Fast Response PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 350 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+        "dimensions": "0.5 mm diameter tip",
+        "pdf_ref": null
+      },
+      {
+        "model": "5622-10",
+        "family": "Fast Response PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 350 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+        "dimensions": "1.0 mm diameter tip",
+        "pdf_ref": null
+      },
+      {
+        "model": "5622-16",
+        "family": "Fast Response PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 350 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+        "dimensions": "1.6 mm diameter tip",
+        "pdf_ref": null
+      },
+      {
+        "model": "5622-32",
+        "family": "Fast Response PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5622",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 350 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C",
+        "dimensions": "3.2 mm diameter tip",
+        "pdf_ref": null
+      },
+      {
+        "model": "5624-20",
+        "family": "High-Temperature PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5624",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 1000 \u00b0C",
+        "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C (typical)",
+        "dimensions": "508 mm length x 6.35 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5640",
+        "family": "Thermistor Standard Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+        "dimensions": null,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+      },
+      {
+        "model": "5641",
+        "family": "Thermistor Standard Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+        "dimensions": null,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+      },
+      {
+        "model": "5642",
+        "family": "Thermistor Standard Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+        "dimensions": null,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+      },
+      {
+        "model": "5643",
+        "family": "Thermistor Standard Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+        "dimensions": null,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+      },
+      {
+        "model": "5644",
+        "family": "Thermistor Standard Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5640",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.001 \u00b0C (0 \u00b0C to 60 \u00b0C)",
+        "dimensions": null,
+        "pdf_ref": "https://dam-assets.fluke.com/s3fs-public/5640-series-datasheet.pdf"
+      },
+      {
+        "model": "5609-9BND-P",
+        "family": "Secondary PRT (90\u00b0 bend)",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5609-9bnd-p",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 670 \u00b0C",
+        "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C (typical)",
+        "dimensions": "1/4 in diameter x 12 in length, 90\u00b0 bend",
+        "pdf_ref": null
+      },
+      {
+        "model": "5610-6",
+        "family": "Precision Thermistor Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+        "dimensions": "152.4 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5610-9",
+        "family": "Precision Thermistor Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+        "dimensions": "228.6 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5611A-11",
+        "family": "Precision Thermistor Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+        "dimensions": "25.4 mm length silicone-bead probe",
+        "pdf_ref": null
+      },
+      {
+        "model": "5611T",
+        "family": "Precision Thermistor Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+        "dimensions": "28 mm PTFE-coated probe (20 ft lead)",
+        "pdf_ref": null
+      },
+      {
+        "model": "5665",
+        "family": "Precision Thermistor Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5610-5611-5611t-5665",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 100 \u00b0C",
+        "uncertainty": "\u00b10.01 \u00b0C (at 0 \u00b0C); drift \u00b10.01 \u00b0C/year",
+        "dimensions": "76.3 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5618B-6",
+        "family": "Small Diameter PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 300 \u00b0C",
+        "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+        "dimensions": "152 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5618B-9",
+        "family": "Small Diameter PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 300 \u00b0C",
+        "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+        "dimensions": "229 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5618B-12",
+        "family": "Small Diameter PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5618b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 420 \u00b0C",
+        "uncertainty": "\u00b10.03 \u00b0C at 0 \u00b0C; drift \u00b10.04 \u00b0C (after 100h at 420 \u00b0C)",
+        "dimensions": "305 mm length x 3.2 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5623B-6",
+        "family": "Precision Freezer RTD Probe",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5623b",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-100 to 156 \u00b0C",
+        "uncertainty": "\u00b10.05 \u00b0C at 0 \u00b0C",
+        "dimensions": "152 mm length x 6.35 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5626-20",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5628-20",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5626-12",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5626-15",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5628-12",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5628-15",
+        "family": "Secondary Standard PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5626-5628",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 661 \u00b0C",
+        "uncertainty": "\u00b10.04 \u00b0C at 0 \u00b0C (k=2)",
+        "dimensions": null,
+        "pdf_ref": null
+      },
+      {
+        "model": "5627A-6",
+        "family": "Industrial PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 300 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+        "dimensions": "152 mm length x 4.7 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5627A-9",
+        "family": "Industrial PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 300 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+        "dimensions": "229 mm length x 4.7 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5627A-12",
+        "family": "Industrial PRT",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5627a",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "-200 to 420 \u00b0C",
+        "uncertainty": "\u00b10.012 \u00b0C at 0 \u00b0C; \u00b10.035 \u00b0C at 420 \u00b0C",
+        "dimensions": "305 mm length x 6.35 mm diameter",
+        "pdf_ref": null
+      },
+      {
+        "model": "5649-20",
+        "family": "Type R Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "508 mm length",
+        "pdf_ref": null
+      },
+      {
+        "model": "5649-20C",
+        "family": "Type R Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "508 mm length, with reference junction",
+        "pdf_ref": null
+      },
+      {
+        "model": "5649-25",
+        "family": "Type R Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "635 mm length",
+        "pdf_ref": null
+      },
+      {
+        "model": "5649-25C",
+        "family": "Type R Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "635 mm length, with reference junction",
+        "pdf_ref": null
+      },
+      {
+        "model": "5650-20",
+        "family": "Type S Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "508 mm length",
+        "pdf_ref": null
+      },
+      {
+        "model": "5650-20C",
+        "family": "Type S Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "508 mm length, with reference junction",
+        "pdf_ref": null
+      },
+      {
+        "model": "5650-25",
+        "family": "Type S Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "635 mm length",
+        "pdf_ref": null
+      },
+      {
+        "model": "5650-25C",
+        "family": "Type S Thermocouple Standard",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/temperature/5649-5650",
+        "division": "Temperature Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Temperature_sensor"
+        ],
+        "range": "0 to 1450 \u00b0C",
+        "uncertainty": "\u00b10.5 \u00b0C (typical)",
+        "dimensions": "635 mm length, with reference junction",
+        "pdf_ref": null
+      },
+      {
+        "model": "80PK-1",
+        "accessory_for": "General purpose temperature measurement (Type-K)",
+        "function": "Bead thermocouple probe, -40 to 260 \u00b0C range",
+        "pdf_ref": null
+      },
+      {
+        "model": "8588A-LEAD KIT-OSP",
+        "accessory_for": "Fluke 8588A Reference Multimeter",
+        "function": "General purpose test probe set with pouch",
+        "pdf_ref": null
+      },
+      {
+        "model": "Fluke 884X-RTD",
+        "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+        "function": "100 \u03a9 RTD temperature probe",
+        "pdf_ref": null
+      },
+      {
+        "model": "Fluke 8845A-EFPT",
+        "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+        "function": "Extended fine point tip adapters (red and black)",
+        "pdf_ref": null
+      },
+      {
+        "model": "Fluke 8845A-TPIT",
+        "accessory_for": "Fluke 8845A/8846A Digital Multimeters",
+        "function": "IC test probe tip set (red and black)",
+        "pdf_ref": null
+      },
+      {
+        "model": "5026A-H",
+        "accessory_for": "Fluke 5020A-H Thermo-Hygrometer",
+        "function": "Spare high-accuracy temperature/humidity probe",
+        "pdf_ref": null
+      },
+      {
+        "model": "5026A-S",
+        "accessory_for": "Fluke 5020A-S Thermo-Hygrometer",
+        "function": "Spare standard temperature/humidity probe",
+        "pdf_ref": null
+      },
+      {
+        "model": "5027A-H",
+        "accessory_for": "Fluke 5020A-H Thermo-Hygrometer",
+        "function": "Spare probe kit (high-accuracy)",
+        "pdf_ref": null
+      },
+      {
+        "model": "5027A-S",
+        "accessory_for": "Fluke 5020A-S Thermo-Hygrometer",
+        "function": "Spare probe kit (standard)",
+        "pdf_ref": null
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "5615",
+        "doc_type": "User Manual",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5615____ugeng0000.pdf"
+      },
+      {
+        "model": "5615",
+        "doc_type": "Data Sheet",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/3000185B_w.pdf"
+      },
+      {
+        "model": "5626/5628",
+        "doc_type": "User Manual",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5626-28_ugeng0000_0.pdf"
+      },
+      {
+        "model": "5618B",
+        "doc_type": "User Manual",
+        "pdf_url": "https://dam-assets.fluke.com/s3fs-public/5618B____ugeng0100.pdf"
+      }
+    ]
+  },
+  "piston_gauge_pressure_calibration": {
+    "catalog_rows": [
+      {
+        "model": "PG7000-AMH",
+        "family": "Automated Mass Handler for PG7000 Piston Gauges",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7000-amh",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": null,
+        "functions_supported": [],
+        "range": {},
+        "uncertainty": null,
+        "effective_area_cm2": null,
+        "media": null,
+        "pdf_ref": "3031104_6202_ENG_B_W.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7601",
+        "family": "Piston Gauge",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7601",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Absolute_pressure",
+          "Gauge_pressure",
+          "Differential_pressure"
+        ],
+        "range": "7 kPa to 7 MPa (gas)",
+        "uncertainty": "\u00b10.012% (typical)",
+        "effective_area_cm2": null,
+        "media": "Gas",
+        "pdf_ref": "3031090_6203_ENG_D_W.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7202",
+        "family": "High Pressure Gas / Hydraulic Piston Gauge",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7202",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Gauge_pressure"
+        ],
+        "range": "100 kPa to 110 MPa (gas); 1 MPa to 200 MPa (oil)",
+        "uncertainty": "\u00b10.002% (typical)",
+        "effective_area_cm2": null,
+        "media": "Gas/Oil",
+        "pdf_ref": "3031119_6202_ENG_B_W.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG9602/9607",
+        "family": "Piston Gauge",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg9602-9607",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Absolute_pressure",
+          "Gauge_pressure"
+        ],
+        "range": "11 kPa to 500 kPa (gas)",
+        "uncertainty": "\u00b10.002% (typical)",
+        "effective_area_cm2": null,
+        "media": "Gas",
+        "pdf_ref": null,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7302",
+        "family": "Piston Gauge",
+        "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7302",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Absolute_pressure",
+          "Gauge_pressure"
+        ],
+        "range": "100 kPa to 500 MPa (oil)",
+        "uncertainty": "\u00b10.002% (typical)",
+        "effective_area_cm2": null,
+        "media": "Oil",
+        "pdf_ref": "3031090_6203_ENG_D_W.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2465A-23",
+        "family": "Lines and Fittings Kit",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/calibration-accessories/2465a-23",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": null,
+        "functions_supported": [],
+        "range": {},
+        "uncertainty": null,
+        "effective_area_cm2": null,
+        "media": null,
+        "pdf_ref": "Datasheet",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PK-MPG2-RPM/PG",
+        "family": "Interconnect Kit - Connect MPG2-H to PG7302",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/adapters/pk-mpg2-rpm-pg",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": null,
+        "functions_supported": [],
+        "range": {},
+        "uncertainty": null,
+        "effective_area_cm2": null,
+        "media": null,
+        "pdf_ref": "Datasheet",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2456",
+        "family": "Piston Gauge Monitor",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/pressure/2456",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [],
+        "range": {},
+        "uncertainty": null,
+        "effective_area_cm2": null,
+        "media": null,
+        "pdf_ref": "2456____umeng0000.pdf",
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2456-VAC",
+        "family": "Vacuum Sensor Module",
+        "product_url": "https://www.fluke.com/en-us/product/accessories/pressure/2456-vac",
+        "division": "Pressure Calibration",
+        "recommended_interval_mo": 12,
+        "functions_supported": [
+          "Absolute_pressure"
+        ],
+        "range": {},
+        "uncertainty": null,
+        "effective_area_cm2": null,
+        "media": "Gas",
+        "pdf_ref": null,
+        "last_verified": "2025-07-15"
+      }
+    ],
+    "docs_rows": [
+      {
+        "model": "PG7000-AMH",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3031104_6202_ENG_B_W.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7000-AMH",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3509389.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7601",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3031090_6203_ENG_D_W.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7601",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/550152_0.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7202",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3031119_6202_ENG_B_W.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PG7302",
+        "doc_type": "Datasheet",
+        "url": "https://dam-assets.fluke.com/s3fs-public/3031090_6203_ENG_D_W.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2465A-23",
+        "doc_type": "Datasheet",
+        "url": "https://www.fluke.com/en-us/product/accessories/calibration-accessories/2465a-23/ds",
+        "source_site": "fluke.com",
+        "downloadable": false,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "PK-MPG2-RPM/PG",
+        "doc_type": "Datasheet",
+        "url": "https://www.fluke.com/en-us/product/accessories/adapters/pk-mpg2-rpm-pg/ds",
+        "source_site": "fluke.com",
+        "downloadable": false,
+        "last_verified": "2025-07-15"
+      },
+      {
+        "model": "2456",
+        "doc_type": "User Manual",
+        "url": "https://dam-assets.fluke.com/s3fs-public/2456____umeng0000.pdf",
+        "source_site": "dam-assets.fluke.com",
+        "downloadable": true,
+        "last_verified": "2025-07-15"
+      }
+    ]
+  }
+}

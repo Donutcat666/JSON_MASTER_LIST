@@ -1,0 +1,204 @@
+{
+  "catalog_rows": [
+    {
+      "model": "PG7000-AMH",
+      "family": "Automated Mass Handler for PG7000 Piston Gauges",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7000-amh",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": null,
+      "functions_supported": [],
+      "range": {},
+      "uncertainty": null,
+      "effective_area_cm2": null,
+      "media": null,
+      "pdf_ref": "3031104_6202_ENG_B_W.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7601",
+      "family": "Piston Gauge",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7601",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Absolute_pressure", "Gauge_pressure", "Differential_pressure"],
+      "range": "7 kPa to 7 MPa (gas)",
+      "uncertainty": "\u00b10.012% (typical)",
+      "effective_area_cm2": null,
+      "media": "Gas",
+      "pdf_ref": "3031090_6203_ENG_D_W.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7202",
+      "family": "High Pressure Gas / Hydraulic Piston Gauge",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7202",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Gauge_pressure"],
+      "range": "100 kPa to 110 MPa (gas); 1 MPa to 200 MPa (oil)",
+      "uncertainty": "\u00b10.002% (typical)",
+      "effective_area_cm2": null,
+      "media": "Gas/Oil",
+      "pdf_ref": "3031119_6202_ENG_B_W.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG9602/9607",
+      "family": "Piston Gauge",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg9602-9607",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Absolute_pressure", "Gauge_pressure"],
+      "range": "11 kPa to 500 kPa (gas)",
+      "uncertainty": "\u00b10.002% (typical)",
+      "effective_area_cm2": null,
+      "media": "Gas",
+      "pdf_ref": null,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7302",
+      "family": "Piston Gauge",
+      "product_url": "https://www.fluke.com/en-us/product/calibration-tools/pressure-calibration/piston-gauges/pg7302",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Absolute_pressure", "Gauge_pressure"],
+      "range": "100 kPa to 500 MPa (oil)",
+      "uncertainty": "\u00b10.002% (typical)",
+      "effective_area_cm2": null,
+      "media": "Oil",
+      "pdf_ref": "3031090_6203_ENG_D_W.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2465A-23",
+      "family": "Lines and Fittings Kit",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/calibration-accessories/2465a-23",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": null,
+      "functions_supported": [],
+      "range": {},
+      "uncertainty": null,
+      "effective_area_cm2": null,
+      "media": null,
+      "pdf_ref": "Datasheet",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PK-MPG2-RPM/PG",
+      "family": "Interconnect Kit - Connect MPG2-H to PG7302",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/adapters/pk-mpg2-rpm-pg",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": null,
+      "functions_supported": [],
+      "range": {},
+      "uncertainty": null,
+      "effective_area_cm2": null,
+      "media": null,
+      "pdf_ref": "Datasheet",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2456",
+      "family": "Piston Gauge Monitor",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/pressure/2456",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": [],
+      "range": {},
+      "uncertainty": null,
+      "effective_area_cm2": null,
+      "media": null,
+      "pdf_ref": "2456____umeng0000.pdf",
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2456-VAC",
+      "family": "Vacuum Sensor Module",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/pressure/2456-vac",
+      "division": "Pressure Calibration",
+      "recommended_interval_mo": 12,
+      "functions_supported": ["Absolute_pressure"],
+      "range": {},
+      "uncertainty": null,
+      "effective_area_cm2": null,
+      "media": "Gas",
+      "pdf_ref": null,
+      "last_verified": "2025-07-15"
+    }
+  ],
+  "docs_rows": [
+    {
+      "model": "PG7000-AMH",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3031104_6202_ENG_B_W.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7000-AMH",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3509389.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7601",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3031090_6203_ENG_D_W.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7601",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/550152_0.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7202",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3031119_6202_ENG_B_W.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PG7302",
+      "doc_type": "Datasheet",
+      "url": "https://dam-assets.fluke.com/s3fs-public/3031090_6203_ENG_D_W.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2465A-23",
+      "doc_type": "Datasheet",
+      "url": "https://www.fluke.com/en-us/product/accessories/calibration-accessories/2465a-23/ds",
+      "source_site": "fluke.com",
+      "downloadable": false,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "PK-MPG2-RPM/PG",
+      "doc_type": "Datasheet",
+      "url": "https://www.fluke.com/en-us/product/accessories/adapters/pk-mpg2-rpm-pg/ds",
+      "source_site": "fluke.com",
+      "downloadable": false,
+      "last_verified": "2025-07-15"
+    },
+    {
+      "model": "2456",
+      "doc_type": "User Manual",
+      "url": "https://dam-assets.fluke.com/s3fs-public/2456____umeng0000.pdf",
+      "source_site": "dam-assets.fluke.com",
+      "downloadable": true,
+      "last_verified": "2025-07-15"
+    }
+  ]
+}

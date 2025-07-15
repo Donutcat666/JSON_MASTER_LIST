@@ -1,0 +1,159 @@
+[
+  {
+    "model": "5560A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Inductance_src", "Temp_sim", "Power_sim", "Fast_edge_src"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "1 mV to 1020 V (3 Hz–500 kHz)",
+      "DCI_src": "0 to 30.2 A",
+      "ACI_src": "10 µA to 30.2 A (3 Hz–30 kHz)",
+      "Resistance_src": "0 Ω to 1.1 GΩ",
+      "Capacitance_src": "0 nF to 120 mF",
+      "Inductance_src": "12 µH to 120 H",
+      "Temp_sim": "Thermocouples (17 types), RTDs (Pt, Ni, Cu types)",
+      "Power_sim": "Up to 30.9 kW (phantom load)",
+      "Fast_edge_src": "<175 ps rise time"
+    },
+    "uncertainty": {
+      "DCV_src": "±9 ppm",
+      "ACV_src": "±140 ppm (to 10 kHz)",
+      "DCI_src": "±80 ppm (≤3 A)",
+      "ACI_src": "±250 ppm (≤10 kHz)",
+      "Resistance_src": "±22 ppm (mid-range)",
+      "Capacitance_src": "±0.25%",
+      "Inductance_src": "±0.5%",
+      "Temp_sim": "±0.5 °C (typical)",
+      "Power_sim": "±0.3% (typical)",
+      "Fast_edge_src": "±40 ps jitter"
+    },
+    "pdf_ref": "2230414-en"
+  },
+  {
+    "model": "5550A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Temp_sim", "Power_sim", "Fast_edge_src"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "1 mV to 1020 V (3 Hz–300 kHz)",
+      "DCI_src": "0 to 30.2 A",
+      "ACI_src": "10 µA to 30.2 A (3 Hz–10 kHz)",
+      "Resistance_src": "0 Ω to 1.1 GΩ",
+      "Capacitance_src": "0 nF to 120 mF",
+      "Temp_sim": "Thermocouples (17 types), RTDs (same as 5560A)",
+      "Power_sim": "Up to 30.9 kW (phantom load)",
+      "Fast_edge_src": "<300 ps rise time"
+    },
+    "uncertainty": {
+      "DCV_src": "±11 ppm",
+      "ACV_src": "±160 ppm (to 10 kHz)",
+      "DCI_src": "±100 ppm (≤3 A)",
+      "ACI_src": "±300 ppm (≤1 kHz)",
+      "Resistance_src": "±25 ppm (mid-range)",
+      "Capacitance_src": "±0.25%",
+      "Temp_sim": "±1 °C (typical)",
+      "Power_sim": "±0.5% (typical)",
+      "Fast_edge_src": "±50 ps jitter"
+    },
+    "pdf_ref": "2230414-en"
+  },
+  {
+    "model": "5540A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Temp_sim", "Power_sim"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "1 mV to 1020 V (3 Hz–100 kHz)",
+      "DCI_src": "0 to 22 A",
+      "ACI_src": "10 µA to 22 A (3 Hz–10 kHz)",
+      "Resistance_src": "0 Ω to 1.1 GΩ",
+      "Capacitance_src": "0 nF to 120 mF",
+      "Temp_sim": "Thermocouples (17 types), RTDs (limited types)",
+      "Power_sim": "Up to 20 kW (phantom load)"
+    },
+    "uncertainty": {
+      "DCV_src": "±15 ppm",
+      "ACV_src": "±300 ppm",
+      "DCI_src": "±150 ppm",
+      "ACI_src": "±500 ppm",
+      "Resistance_src": "±28 ppm",
+      "Capacitance_src": "±0.5%",
+      "Temp_sim": "±1 °C",
+      "Power_sim": "±0.7%"
+    },
+    "pdf_ref": "2230414-en"
+  },
+  {
+    "model": "5530A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Power_sim"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "33 mV to 1020 V (45 Hz–5 kHz)",
+      "DCI_src": "0 to 20.5 A",
+      "ACI_src": "3.3 mA to 20.5 A (45 Hz–1 kHz)",
+      "Resistance_src": "0 Ω to 100 MΩ",
+      "Capacitance_src": "Fixed values up to 100 µF",
+      "Power_sim": "Up to 5 kW"
+    },
+    "uncertainty": {
+      "DCV_src": "±50 ppm",
+      "ACV_src": "±0.05%+90 µV",
+      "DCI_src": "±300 ppm",
+      "ACI_src": "±0.12% (50 Hz)",
+      "Resistance_src": "±0.1 Ω floor",
+      "Capacitance_src": "±1%",
+      "Power_sim": "±1%"
+    },
+    "pdf_ref": "2230414-en"
+  },
+  {
+    "model": "5522A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Temp_sim", "Power_sim", "Fast_edge_src"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "1 mV to 1020 V (10 Hz–500 kHz)",
+      "DCI_src": "0 to 20.5 A",
+      "ACI_src": "10 µA to 20.5 A (10 Hz–10 kHz)",
+      "Resistance_src": "0 Ω to 1.1 GΩ (variable)",
+      "Capacitance_src": "1 nF to 40 mF (fixed steps)",
+      "Temp_sim": "Thermocouple & RTD (with adapter)",
+      "Power_sim": "Up to 20 kW (phantom load)",
+      "Fast_edge_src": "~300 ps rise time (with scope option)"
+    },
+    "uncertainty": {
+      "DCV_src": "±11 ppm (90 day)",
+      "ACV_src": "±0.012% (1 kHz)",
+      "DCI_src": "±80 ppm (1 A)",
+      "ACI_src": "±0.05% (45 Hz)",
+      "Resistance_src": "±22 ppm + floor",
+      "Capacitance_src": "±0.5%",
+      "Temp_sim": "±0.3 °C (typical)",
+      "Power_sim": "±0.5%",
+      "Fast_edge_src": "±150 ps"
+    },
+    "pdf_ref": "Fluke 5522A Extended Specs"
+  },
+  {
+    "model": "5502A",
+    "functions_supported": ["DCV_src", "ACV_src", "DCI_src", "ACI_src", "Resistance_src", "Capacitance_src", "Temp_sim", "Power_sim", "Fast_edge_src"],
+    "range": {
+      "DCV_src": "0 to 1020 V",
+      "ACV_src": "1 mV to 1020 V (10 Hz–120 kHz)",
+      "DCI_src": "0 to 20.5 A",
+      "ACI_src": "10 µA to 20.5 A (10 Hz–10 kHz)",
+      "Resistance_src": "0 Ω to 1100 MΩ",
+      "Capacitance_src": "0.1 µF, 1 µF, 10 µF, 100 µF (discrete)",
+      "Temp_sim": "Thermocouple & RTD (optional)",
+      "Power_sim": "Up to 20 kW",
+      "Fast_edge_src": "≤2 ns (with 600 MHz option)"
+    },
+    "uncertainty": {
+      "DCV_src": "±50 ppm",
+      "ACV_src": "±0.02% (≤5 kHz)",
+      "DCI_src": "±150 ppm (≤1 A)",
+      "ACI_src": "±0.1% (45 Hz)",
+      "Resistance_src": "±30 ppm + floor",
+      "Capacitance_src": "±1%",
+      "Temp_sim": "±1 °C",
+      "Power_sim": "±0.7%",
+      "Fast_edge_src": "±1 ns"
+    },
+    "pdf_ref": "11872-eng"
+  }]
