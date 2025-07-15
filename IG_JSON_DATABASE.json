@@ -701,6 +701,96 @@
       "recommended_interval_mo": 12,
       "pdf_ref": null,
       "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 64 MAX",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-64-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 24,
+      "pdf_ref": "6008893_0000_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 62 MAX+",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-62-max-plus",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6008893_0000_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 62 MAX",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-62-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6008893_0000_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 59 MAX+",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-59-max-plus",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6000025_6250_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 59 MAX",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-59-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "6000025_6250_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 572-2",
+      "family": "Infrared Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-572-2",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "Fluke 572-2 High Temperature Infrared Thermometer.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 568",
+      "family": "Contact & IR Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-568",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "3085001_6250_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 566",
+      "family": "Contact & IR Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-566",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "3085001_6250_ENG_A_W.PDF",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 561",
+      "family": "Contact & IR Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-561",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "Fluke 561 Infrared and Contact Thermometer.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 568 Ex",
+      "family": "Contact & IR Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/intrinsically-safe/fluke-568-ex",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "flk-250195-en-global-568-Ex-infrared-therm-ds-w.pdf",
+      "last_verified": "2025-07-14"
     }
   ]
 }
