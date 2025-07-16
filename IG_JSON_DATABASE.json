@@ -791,6 +791,321 @@
       "recommended_interval_mo": 12,
       "pdf_ref": "flk-250195-en-global-568-Ex-infrared-therm-ds-w.pdf",
       "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 283 FC/PV Solar Digital Multimeter and Wireless Current Clamp",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/283-fcpv-solar-digital-multimeter",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "flk-240412-en-global-283FC-solar-dmm-current-clamp-ds-w.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 283 FC CAT III 1500V Digital Multimeter",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/283-fc-digital-multimeter",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "flk-240412-en-global-283FC-solar-dmm-current-clamp-ds-w.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke PVA-1500 Series PV Analyzer, I-V Curve Tracer",
+      "family": "PV Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-1500-iv-curve-tracer-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "SMFT-1000 Solar Tools Kit: Fluke Multifunction PV Tester and Performance Analyzer, I-V Curve Tracer",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/smft-1000-pv-tester",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Solar Site Survey Irradiance Meter with Mounting Bracket",
+      "family": "Irradiance Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/mounting-bracket-irradiance-meter",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Solmetric PVA Charging Kit",
+      "family": "Charging Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-charging-kit",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Solar Irradiance Meter (IRR1-SOL)",
+      "family": "Irradiance Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/flk-irr1-sol",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 393 FC Solar Clamp Meter CAT III 1500 V",
+      "family": "Solar Clamp Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/393-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "flk-210543-393-fc-ds-w.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 1587 FC Insulation Multimeter",
+      "family": "Insulation Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/insulation-testers/fluke-1587-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Ti480 PRO Infrared Camera",
+      "family": "Thermal Camera",
+      "product_url": "https://www.fluke.com/en-us/product/thermal-cameras/ti480-pro",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 87V MAX True-rms Digital Multimeter",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/87v-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": "87v-max-datasheet.pdf",
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 1630-2 FC Earth Ground Clamp",
+      "family": "Earth Ground Clamp",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/earth-ground/1630-2-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 87V Industrial Multimeter",
+      "family": "Digital Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-87v",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 500 Series Battery Analyzer",
+      "family": "Battery Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/battery-analyzers/fluke-500-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 64 MAX IR Thermometer",
+      "family": "IR Thermometer",
+      "product_url": "https://www.fluke.com/en-us/product/temperature-measurement/ir-thermometers/fluke-64-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 365 Detachable Jaw True RMS AC/DC Clamp Meter",
+      "family": "Clamp Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/365",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 1625-2 GEO Earth Ground Tester",
+      "family": "Earth Ground Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/earth-ground/fluke-1625-2",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 1507 Insulation Resistance Tester",
+      "family": "Insulation Tester",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/insulation-testers/fluke-1507",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Amprobe SOLAR-100 Solar Power Meter",
+      "family": "Solar Power Meter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/basic-testers/amp-solar-100",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke insulated long nose pliers",
+      "family": "Insulated Tools",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/insulated-tools/needle-nose-pliers",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Norma 6000 Series Portable Power Analyzers",
+      "family": "Power Analyzer",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/power-quality/norma-6000",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke 279 FC True-rms Thermal Multimeter",
+      "family": "Thermal Multimeter",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-279-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke a283 FC True-RMS CAT III 1500V Wireless Current Clamp",
+      "family": "Wireless Current Clamp",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/current-clamps/a283-fc-wireless-current-clamp",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Pomona PVLEAD1 Solar PV Connector to 4 mm Test Lead Set",
+      "family": "Test Lead Set",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/test-leads/pvlead1",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Pomona PVLEAD3 Solar PV Solar Clamp Test Lead Set",
+      "family": "Test Lead Set",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/test-leads/pvlead3",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke Pack30 Professional Tool Backpack",
+      "family": "Tool Backpack",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/cases/fluke-pack30",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Fluke i410 AC/DC Current Clamp",
+      "family": "Current Clamp",
+      "product_url": "https://www.fluke.com/en-us/product/accessories/current-clamps/i410",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "SMFT-1000 Solar Tools Pro Kit: Fluke Multifunction PV Tester, I-V Curve Tracer with TruTest\u2122 Software and Solar PV Leads",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/smft-1000-pv-tester",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Solar Tools Kit with 393 FC Clamp Meter and Solar Test Leads",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/393-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Solar Tools Kit with 393 FC Clamp Meter, Irradiance Meter and Solar Test Leads",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/clamp-meters/393-fc",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "Solar Tools Kit with 87V Max Digital Multimeter and Test Leads",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/87v-max",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PVA-1500HE2 I-V Curve Tracer and 1537 Insulation Tester 2500V Kit",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-1500-iv-curve-tracer-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PVA-1500HE2 I-V Curve Tracer Thermography Kit",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-1500-iv-curve-tracer-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PVA-1500HE2 I-V Curve Tracer, Clamp and Multimeter Kit",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-1500-iv-curve-tracer-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
+    },
+    {
+      "model": "PVA-1500HE2 I-V Curve Tracer, Insulation, Clamp and Multimeter Kit",
+      "family": "Solar Test Kit",
+      "product_url": "https://www.fluke.com/en-us/product/electrical-testing/best-solar-energy-industry-tools/pva-1500-iv-curve-tracer-series",
+      "division": "Test Instruments",
+      "recommended_interval_mo": 12,
+      "pdf_ref": null,
+      "last_verified": "2025-07-14"
     }
   ]
 }
